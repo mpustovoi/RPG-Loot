@@ -7,7 +7,7 @@
 
 Этот набор добавляет RPG-добычу, которую можно получить, убивая некоторых мобов и найдя в некоторых ванильных структурах.
 
-Он вдохновлён [**RPG Loot, Mobs & Dungeons Data Pack**](https://www.planetminecraft.com/data-pack/rpg-loot-data-pack/) от [michael9r9r](https://www.planetminecraft.com/member/michael9r9r/) и содержит некоторые названия предметов оттуда.
+Он вдохновлён [**RPG Loot, Mobs & Dungeons Data Pack**](https://www.planetminecraft.com/data-pack/rpg-loot-data-pack/) от [michael9r9r](https://www.planetminecraft.com/member/michael9r9r/) и содержит некоторые названия предметов оттуда, но не содержит пользовательских мобов и подземелья.
 
 ### Детали
 
@@ -69,7 +69,7 @@ RPG Loot pack for vanilla game.
 
 This pack adds RPG loot, which can be obtained by killing some mobs and found in some vanilla structures.
 
-It's is inspired by [**RPG Loot, Mobs & Dungeons Data Pack**](https://www.planetminecraft.com/data-pack/rpg-loot-data-pack/) by [michael9r9r](https://www.planetminecraft.com/member/michael9r9r/) and contains some item names from there.
+It's is inspired by [**RPG Loot, Mobs & Dungeons Data Pack**](https://www.planetminecraft.com/data-pack/rpg-loot-data-pack/) by [michael9r9r](https://www.planetminecraft.com/member/michael9r9r/) and contains some item names from there, but doesn't contain custom mobs and dungeons.
 
 ## Details
 
