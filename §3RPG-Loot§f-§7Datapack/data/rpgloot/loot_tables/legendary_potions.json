@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.potion_of_vitality",
+                "fallback": "Legendary Potion of Vitality",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4,Duration:20},{Id:10,Amplifier:2,Duration:2400}],CustomPotionColor:16770102}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.potion_of_the_stone_sentinel",
+                "fallback": "Potion of the Stone Sentinel",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:2,Duration:20},{Id:11,Amplifier:0,Duration:3600},{Id:12,Amplifier:0,Duration:3600},{Id:21,Amplifier:4,Duration:3600},{Id:22,Amplifier:4,Duration:3600,ShowParticles:0b},{Id:23,Amplifier:0,Duration:3600}],CustomPotionColor:16775800}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.invulnerability_potion",
+                "fallback": "Invulnerability Potion",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4},{Id:11,Amplifier:4,Duration:600},{Id:12,Duration:600}],CustomPotionColor:16777215}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

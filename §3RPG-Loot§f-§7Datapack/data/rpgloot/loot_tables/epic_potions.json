@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.greater_potion_of_vitality",
+                "fallback": "Greater Potion of Vitality",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4s,Duration:20},{Id:10,Amplifier:1,Duration:4800}],CustomPotionColor:11534525}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.potion_of_the_night_stalker",
+                "fallback": "Potion of the Night Stalker",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:4800},{Id:14,Amplifier:0,Duration:4800},{Id:16,Amplifier:0,Duration:9600}],CustomPotionColor:0}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.atlantean_potion",
+                "fallback": "Atlantean Potion",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:13,Duration:9600},{Id:29,Duration:9600},{Id:30,Duration:9600}],CustomPotionColor:11534525}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

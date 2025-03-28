@@ -1,0 +1,343 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 8,
+        "max": 16,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "rpgloot:experience"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 6,
+        "max": 12,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 400,
+          "quality": 1,
+          "name": "rpgloot:rare_items"
+        },
+        {
+          "type": "loot_table",
+          "weight": 150,
+          "quality": 3,
+          "name": "rpgloot:epic_items"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 5,
+          "name": "rpgloot:legendary_items"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 6,
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.ribcage_of_hades",
+                "fallback": "Ribcage of Hades",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "name": "generic.armor",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 12,
+                    "max": 18
+                  },
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "name": "generic.max_health",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 8,
+                    "max": 12
+                  },
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 2,
+                    "max": 4
+                  },
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.armor_toughness",
+                  "name": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 3,
+                    "max": 4
+                  },
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.luck",
+                  "name": "generic.luck",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 0.2,
+                    "max": 1
+                  },
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.movement_speed",
+                  "name": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "amount": {
+                    "min": -0.2,
+                    "max": -0.05
+                  },
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:6s},{id:\"minecraft:thorns\",lvl:4s}],Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:rib\"}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 20,
+                "max": 40,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:projectile_protection"]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 4,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.bone_blast",
+                "fallback": "Bone Blast",
+                "color": "dark_gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "name": "generic.armor",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 1,
+                    "max": 4
+                  },
+                  "slot": ["mainhand", "offhand"]
+                },
+                {
+                  "attribute": "generic.movement_speed",
+                  "name": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "amount": {
+                    "min": -0.15,
+                    "max": -0.05
+                  },
+                  "slot": ["mainhand", "offhand"]
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:flame\",lvl:1s}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:punch"]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 5,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.wither_bone",
+                "fallback": "Wither Bone",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 6,
+                    "max": 8
+                  },
+                  "slot": ["mainhand", "offhand"]
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "generic.attack_speed",
+                  "operation": "addition",
+                  "amount": {
+                    "min": -0.4,
+                    "max": -0.2
+                  },
+                  "slot": ["mainhand", "offhand"]
+                },
+                {
+                  "attribute": "generic.movement_speed",
+                  "name": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "amount": {
+                    "min": -0.1,
+                    "max": -0.05
+                  },
+                  "slot": ["mainhand", "offhand"]
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:3s},{id:\"minecraft:looting\",lvl:5s}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:sharpness"]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:knockback"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/wither"
+}

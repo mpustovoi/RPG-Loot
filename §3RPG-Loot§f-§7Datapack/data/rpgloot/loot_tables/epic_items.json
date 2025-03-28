@@ -1,0 +1,2295 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.stone_sword",
+                "fallback": "Epic Stone Sword",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 6.4,
+                    "max": 9.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.4,
+                    "max": -2.4,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.iron_sword",
+                "fallback": "Epic Iron Sword",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 7.4,
+                    "max": 10.8,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.16,
+                    "max": -1.68,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond_sword",
+                "fallback": "Epic Diamond Sword",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 8.7,
+                    "max": 12.15,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.24,
+                    "max": -1.92,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.stone_pickaxe",
+                "fallback": "Epic Stone Pickaxe",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 3.5,
+                    "max": 5.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.8,
+                    "max": -2.4,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.iron_pickaxe",
+                "fallback": "Epic Iron Pickaxe",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 4.5,
+                    "max": 6.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.5,
+                    "max": -2.1,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 15,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond_pickaxe",
+                "fallback": "Epic Diamond Pickaxe",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 5.5,
+                    "max": 7.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.7,
+                    "max": -2.5,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.stone_axe",
+                "fallback": "Epic Stone Axe",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 10.8,
+                    "max": 14.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -3.2,
+                    "max": -3.2,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.iron_axe",
+                "fallback": "Epic Iron Axe",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 11.8,
+                    "max": 17.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.87,
+                    "max": -2.71,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 15,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond_axe",
+                "fallback": "Epic Diamond Axe",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 12.4,
+                    "max": 18.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.9,
+                    "max": -2.7,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.trident",
+                "fallback": "Epic Trident",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 12.0,
+                    "max": 18.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.79,
+                    "max": -2.57,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:looting,lvl:3},{id:loyalty,lvl:3}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.shield",
+                "fallback": "Epic Shield",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.5,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "armortoughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackResistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxHealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 2.0,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 8,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.bow",
+                "fallback": "Epic Bow",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": ["mainhand", "offhand"],
+                  "amount": {
+                    "min": 0.05,
+                    "max": 0.15,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "luck",
+                  "attribute": "generic.luck",
+                  "operation": "addition",
+                  "slot": ["mainhand", "offhand"],
+                  "amount": {
+                    "min": 0.1,
+                    "max": 0.3,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 8,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.crossbow",
+                "fallback": "Epic Crossbow",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "knockbackResistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": ["mainhand", "offhand"],
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "luck",
+                  "attribute": "generic.luck",
+                  "operation": "addition",
+                  "slot": ["mainhand", "offhand"],
+                  "amount": {
+                    "min": 0.1,
+                    "max": 0.3,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.chainmail_helmet",
+                "fallback": "Epic Chainmail Helmet",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 4.0,
+                    "max": 8.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.2,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.chainmail_chestplate",
+                "fallback": "Epic Chainmail Chestplate",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 5.5,
+                    "max": 6.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 7.5,
+                    "max": 15.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.2,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.chainmail_leggings",
+                "fallback": "Epic Chainmail Leggings",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 4.4,
+                    "max": 5.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 6.5,
+                    "max": 13.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.2,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.chainmail_boots",
+                "fallback": "Epic Chainmail Boots",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 1.1,
+                    "max": 1.3,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 3.0,
+                    "max": 6.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.2,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.iron_helmet",
+                "fallback": "Epic Iron Helmet",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 5.0,
+                    "max": 6.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.6,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.iron_chestplate",
+                "fallback": "Epic Iron Chestplate",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 6.6,
+                    "max": 7.8,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 10.0,
+                    "max": 12.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.6,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.iron_leggings",
+                "fallback": "Epic Iron Leggings",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 5.5,
+                    "max": 6.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 8.0,
+                    "max": 10.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.6,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.iron_boots",
+                "fallback": "Epic Iron Boots",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 4.0,
+                    "max": 5.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.6,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond_helmet",
+                "fallback": "Epic Diamond Helmet",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 3.3,
+                    "max": 3.9,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 4.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.4,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond_chestplate",
+                "fallback": "Epic Diamond Chestplate",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 8.8,
+                    "max": 10.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 7.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.4,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond_leggings",
+                "fallback": "Epic Diamond Leggings",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 6.6,
+                    "max": 7.8,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 6.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.4,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond_boots",
+                "fallback": "Epic Diamond Boots",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 3.3,
+                    "max": 3.9,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.4,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.turtle_shell",
+                "fallback": "Epic Turtle Shell",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 4.0,
+                    "max": 6.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.8,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.totem_of_undying",
+                "fallback": "Epic Totem of Undying",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 8.0,
+                    "max": 10.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.5,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.rabbits_foot",
+                "fallback": "Epic Rabbit's Foot",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "luck",
+                  "attribute": "generic.luck",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 1.5,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.15,
+                    "max": 0.2,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.quartz",
+                "fallback": "Epic Quartz",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.19,
+                    "max": 0.28,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.19,
+                    "max": 0.27,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.epic.diamond",
+                "fallback": "Epic Diamond",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 4.0,
+                    "max": 6.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.15,
+                    "max": 0.3,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "rpgloot:experience"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 75,
+          "quality": 1,
+          "name": "rpgloot:rare_items"
+        },
+        {
+          "type": "loot_table",
+          "weight": 30,
+          "quality": 3,
+          "name": "rpgloot:epic_items"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "quality": 5,
+          "name": "rpgloot:legendary_items"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 5,
+          "name": "minecraft:rabbit_foot",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.rabbits_foot",
+                "fallback": "Legendary Rabbit's Foot",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "item.rpgloot.legendary.lore",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.luck",
+                  "name": "generic.luck",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 2.5,
+                    "max": 3.5
+                  },
+                  "slot": "offhand"
+                },
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 3,
+                    "max": 5
+                  },
+                  "slot": "offhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 5,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.chainmail_leggings",
+                "fallback": "Legendary Chainmail Leggings",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "name": "generic.armor",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 5,
+                    "max": 6.5
+                  },
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.armor_toughness",
+                  "name": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 0,
+                    "max": 2
+                  },
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.movement_speed",
+                  "name": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "amount": {
+                    "min": 0.1,
+                    "max": 0.25
+                  },
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "name": "generic.max_health",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 9,
+                    "max": 14
+                  },
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.knockback_resistance",
+                  "name": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 0,
+                    "max": 0.2
+                  },
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 0.2,
+                    "max": 2
+                  },
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "generic.attack_speed",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 0,
+                    "max": 0.1
+                  },
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.luck",
+                  "name": "generic.luck",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 0.2,
+                    "max": 0.5
+                  },
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Unbreakable:1b,Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:dune\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 5,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.legendary.golden_sword",
+                "fallback": "Legendary Golden Sword",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.legendary.lore",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 8,
+                    "max": 10
+                  },
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "generic.attack_speed",
+                  "operation": "addition",
+                  "amount": {
+                    "min": -2,
+                    "max": -1.7
+                  },
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.movement_speed",
+                  "name": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "amount": {
+                    "min": 0.1,
+                    "max": 0.25
+                  },
+                  "slot": ["mainhand", "offhand"]
+                },
+                {
+                  "attribute": "generic.luck",
+                  "name": "generic.luck",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 0.2,
+                    "max": 0.5
+                  },
+                  "slot": ["mainhand", "offhand"]
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Unbreakable:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

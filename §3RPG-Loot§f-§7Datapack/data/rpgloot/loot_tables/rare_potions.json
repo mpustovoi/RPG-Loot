@@ -1,0 +1,330 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.potion_of_greater_healing",
+                "fallback": "Potion of Greater Healing",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:9,Duration:20}],CustomPotionColor:16732759}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.potion_of_hill_giant_strength",
+                "fallback": "Potion of Hill Giant Strength",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:5,Amplifier:3,Duration:4800,ShowParticles:0b},{Id:17,Amplifier:0,Duration:4800,ShowParticles:0b},{Id:22,Amplifier:3,Duration:4800,ShowParticles:0b}],CustomPotionColor:8500059}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.lesser_potion_of_vitality",
+                "fallback": "Lesser Potion of Vitality",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4,Duration:20},{Id:10,Amplifier:0,Duration:4800}],CustomPotionColor:16711680}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.potion_of_the_night_strider",
+                "fallback": "Potion of the Night Strider",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:14,Amplifier:0,Duration:4800},{Id:16,Amplifier:0,Duration:9600}],CustomPotionColor:3158364}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.obsidian_skin_potion",
+                "fallback": "Obsidian Skin Potion",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:12,Amplifier:0,Duration:9600},{Id:11,Amplifier:0,Duration:9600}],CustomPotionColor:7675765}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.splash_potion_of_vitality",
+                "fallback": "Splash Potion of Vitality",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4,Duration:20},{Id:10,Amplifier:0,Duration:6000}],CustomPotionColor:16122059}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.splash_potion_of_freezing",
+                "fallback": "Splash Potion of Freezing",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:2,Amplifier:5,Duration:200}],CustomPotionColor:1756671}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.indefatigable_potion",
+                "fallback": "Indefatigable Potion",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:0,Duration:4800},{Id:23,Amplifier:4,Duration:20}],CustomPotionColor:11206405}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

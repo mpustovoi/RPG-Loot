@@ -1,0 +1,1833 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.stone_sword",
+                "fallback": "Rare Stone Sword",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 5.0,
+                    "max": 7.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.4,
+                    "max": -2.4,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.golden_sword",
+                "fallback": "Rare Golden Sword",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 4,
+                    "max": 4.8,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.4,
+                    "max": -2.06,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 60,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.iron_sword",
+                "fallback": "Rare Iron Sword",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 6,
+                    "max": 7.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -2.4,
+                    "max": -1.92,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.stone_axe",
+                "fallback": "Rare Stone Axe",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 9.0,
+                    "max": 14.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -3.2,
+                    "max": -3.2,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.golden_axe",
+                "fallback": "Rare Golden Axe",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 7.0,
+                    "max": 9.8,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -3.0,
+                    "max": -2.8,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 60,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.iron_axe",
+                "fallback": "Rare Iron Axe",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 9.0,
+                    "max": 12.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -3.1,
+                    "max": -2.84,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 80,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.shield",
+                "fallback": "Rare Shield",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "armortoughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackResistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.15,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxHealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.chainmail_helmet",
+                "fallback": "Rare Chainmail Helmet",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.0,
+                    "max": 2.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.08,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.chainmail_chestplate",
+                "fallback": "Rare Chainmail Chestplate",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 5,
+                    "max": 6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.08,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.chainmail_leggings",
+                "fallback": "Rare Chainmail Leggings",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 4,
+                    "max": 4.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.08,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.chainmail_boots",
+                "fallback": "Rare Chainmail Boots",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 1,
+                    "max": 1.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.05,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 3.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.08,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.golden_helmet",
+                "fallback": "Rare Golden Helmet",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.0,
+                    "max": 2.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.15,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 60,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.golden_chestplate",
+                "fallback": "Rare Golden Chestplate",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 5,
+                    "max": 6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.15,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 60,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.golden_leggings",
+                "fallback": "Rare Golden Leggings",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 3,
+                    "max": 3.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.15,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 60,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.golden_boots",
+                "fallback": "Rare Golden Boots",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 1,
+                    "max": 1.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.15,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 60,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.iron_helmet",
+                "fallback": "Rare Iron Helmet",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.0,
+                    "max": 2.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.22,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.iron_chestplate",
+                "fallback": "Rare Iron Chestplate",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 6,
+                    "max": 7.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.22,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.iron_leggings",
+                "fallback": "Rare Iron Leggings",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 5,
+                    "max": 6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "legs",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.22,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.iron_boots",
+                "fallback": "Rare Iron Boots",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 2,
+                    "max": 2.4,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "feet",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.22,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "weight": 80,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.turtle_shell",
+                "fallback": "Rare Turtle Shell",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 2.2,
+                    "max": 2.6,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "slot": "head",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.3,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": false,
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 40,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.totem_of_undying",
+                "fallback": "Rare Totem of Undying",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 4.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 4.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "toughness",
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "weight": 40,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.rabbits_foot",
+                "fallback": "Rare Rabbit's Foot",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "luck",
+                  "attribute": "generic.luck",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.04,
+                    "max": 0.08,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 40,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.rpgloot.rare.quartz",
+                "fallback": "Rare Quartz",
+                "color": "dark_blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.rare.lore",
+                  "fallback": "Rare",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "movementspeed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.06,
+                    "max": 0.12,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "slot": "offhand",
+                  "amount": {
+                    "min": 0.06,
+                    "max": 0.18,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

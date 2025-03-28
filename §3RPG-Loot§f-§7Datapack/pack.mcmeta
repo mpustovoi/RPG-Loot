@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": {
+      "translate": "datapack.rpgloot.description",
+      "fallback": "§3RPG Loot§r pack\n§7(Only Vanilla items)"
+    },
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 15
+    }
+  }
+}
