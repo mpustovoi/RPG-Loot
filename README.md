@@ -40,6 +40,7 @@
 
 <details>
 <summary>Команды для получения RPG-предметов</summary>
+
 | Команда                                   | Результат выполнения  |
 | ------------------------------------------|-----------------------|
 | `/function rpglott:give/random_item`      | 1 случайный предмет   |
@@ -52,6 +53,7 @@
 | `/function rpglott:give/epic_potion`      | 1 эпическое зелье     |
 | `/function rpglott:give/legendary_item`   | 1 легендарный предмет |
 | `/function rpglott:give/legendary_potion` | 1 легендарное зелье   |
+
 </details>
 
 ### ⚠ Примечания
@@ -99,6 +101,7 @@ Maybe in the distant future, custom textures will be added for some items.
 
 <details>
 <summary>Commands for obtaining RPG items</summary>
+
 | Command                                   | Execution result   |
 | ------------------------------------------|--------------------|
 | `/function rpglott:give/random_item`      | 1 random item      |
@@ -111,6 +114,7 @@ Maybe in the distant future, custom textures will be added for some items.
 | `/function rpglott:give/epic_potion`      | 1 epic potion      |
 | `/function rpglott:give/legendary_item`   | 1 legendary item   |
 | `/function rpglott:give/legendary_potion` | 1 legendary potion |
+
 </details>
 
 ### ⚠ Notes
