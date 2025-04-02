@@ -150,14 +150,16 @@
               "function": "set_count",
               "count": {
                 "min": 12,
-                "max": 18
+                "max": 18,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 3,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -171,14 +173,16 @@
               "function": "set_count",
               "count": {
                 "min": 4,
-                "max": 6
+                "max": 6,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -192,14 +196,16 @@
               "function": "set_count",
               "count": {
                 "min": 6,
-                "max": 9
+                "max": 9,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 2,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -213,14 +219,16 @@
               "function": "set_count",
               "count": {
                 "min": 8,
-                "max": 12
+                "max": 12,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 3,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -234,14 +242,16 @@
               "function": "set_count",
               "count": {
                 "min": 8,
-                "max": 12
+                "max": 12,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 3,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -264,14 +274,16 @@
               "function": "set_count",
               "count": {
                 "min": 4,
-                "max": 6
+                "max": 6,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -285,14 +297,16 @@
               "function": "set_count",
               "count": {
                 "min": 6,
-                "max": 9
+                "max": 9,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 2,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -310,14 +324,16 @@
               "function": "set_count",
               "count": {
                 "min": 32,
-                "max": 48
+                "max": 48,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 4
+                "max": 4,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -340,7 +356,8 @@
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -354,14 +371,16 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 2,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -375,14 +394,16 @@
               "function": "set_count",
               "count": {
                 "min": 4,
-                "max": 6
+                "max": 6,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 2,
+                "type": "minecraft:uniform"
               }
             }
           ]

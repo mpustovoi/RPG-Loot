@@ -53,6 +53,68 @@
           "weight": 3,
           "quality": 3,
           "name": "rpgloot:epic_items"
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:impaling\",lvl:5s},{id:\"minecraft:riptide\",lvl:5s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "item.rpgloot.epic.typhoon",
+                  "fallback": "Typhoon",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 10.5,
+                    "max": 16.5
+                  },
+                  "slot": ["mainhand", "offhand"]
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "generic.attack_speed",
+                  "operation": "addition",
+                  "amount": {
+                    "min": -2.64,
+                    "max": -2.44
+                  },
+                  "slot": ["mainhand", "offhand"]
+                }
+              ]
+            }
+          ]
         }
       ],
       "conditions": [

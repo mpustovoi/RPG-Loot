@@ -17,7 +17,8 @@
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -31,7 +32,8 @@
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -89,14 +91,16 @@
               "function": "set_count",
               "count": {
                 "min": 3,
-                "max": 5
+                "max": 5,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -115,14 +119,16 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 2,
+                "type": "minecraft:uniform"
               }
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
-                "max": 1
+                "max": 1,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -158,6 +164,68 @@
           "weight": 1,
           "quality": 3,
           "name": "rpgloot:epic_items"
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:looting\",lvl:4s}],instrument:\"minecraft:seek_goat_horn\"}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "item.rpgloot.epic.raid_horn",
+                  "fallback": "Raid Horn",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.rpgloot.epic.lore",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": {
+                    "min": 3,
+                    "max": 5
+                  },
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "generic.attack_speed",
+                  "operation": "addition",
+                  "amount": {
+                    "min": -1.6,
+                    "max": -1.2
+                  },
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
         }
       ],
       "conditions": [
