@@ -15,45 +15,20 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:uncommon_items",
+          "value": "rpgloot:uncommon_items",
           "weight": 10,
           "quality": 0
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
+          "value": "rpgloot:rare_items",
           "weight": 3,
           "quality": 1
         }
       ]
     },
     {
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0,
-        "type": "minecraft:uniform"
-      },
-      "bonus_rolls": {
-        "min": 0.0,
-        "max": 1.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "rpgloot:uncommon_potions",
-          "weight": 10,
-          "quality": 0
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_potions",
-          "weight": 3,
-          "quality": 1
-        }
-      ]
-    },
-    {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -73,7 +48,8 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book",
@@ -92,6 +68,7 @@
       "rolls": 1.0
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -277,6 +254,7 @@
       }
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",

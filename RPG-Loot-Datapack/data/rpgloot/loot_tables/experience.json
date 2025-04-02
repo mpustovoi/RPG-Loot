@@ -14,35 +14,42 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:experience_orb\",Value:200}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:experience_orb",
+                  "Value": 200
+                }
+              }
             },
             {
               "function": "set_name",
-              "name": {
-                "translate": "item.rpgloot.epic.experience_orb_spawn_egg",
-                "fallback": "Experience Orb Spawn Egg",
-                "color": "dark_purple",
-                "italic": false
-              }
+              "name": [
+                {
+                  "color": "dark_purple",
+                  "fallback": "Experience Orb Spawn Egg",
+                  "italic": false,
+                  "translate": "item.rpgloot.epic.experience_orb_spawn_egg"
+                }
+              ]
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
                   "color": "dark_purple",
-                  "italic": false
+                  "fallback": "Epic",
+                  "italic": false,
+                  "translate": "item.rpgloot.epic.lore"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
           "weight": 999,
-          "quality": 1,
           "name": "minecraft:experience_bottle",
           "functions": [
             {

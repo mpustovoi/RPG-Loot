@@ -8,25 +8,25 @@
           "type": "loot_table",
           "weight": 1000,
           "quality": 0,
-          "name": "rpgloot:uncommon_potions"
+          "value": "rpgloot:uncommon_potions"
         },
         {
           "type": "loot_table",
           "weight": 400,
           "quality": 1,
-          "name": "rpgloot:rare_potions"
+          "value": "rpgloot:rare_potions"
         },
         {
           "type": "loot_table",
           "weight": 150,
           "quality": 3,
-          "name": "rpgloot:epic_potions"
+          "value": "rpgloot:epic_potions"
         },
         {
           "type": "loot_table",
           "weight": 30,
           "quality": 5,
-          "name": "rpgloot:legendary_potions"
+          "value": "rpgloot:legendary_potions"
         }
       ]
     }

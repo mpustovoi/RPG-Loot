@@ -2,45 +2,6 @@
   "type": "entity",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 19
-        },
-        {
-          "type": "item",
-          "weight": 25,
-          "name": "minecraft:eye_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 6,
-          "name": "minecraft:spire_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "rolls": {
         "min": 10,
         "max": 20,
@@ -54,7 +15,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "rpgloot:experience"
+          "value": "rpgloot:experience"
         }
       ],
       "conditions": [
@@ -79,19 +40,19 @@
           "type": "loot_table",
           "weight": 400,
           "quality": 1,
-          "name": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "loot_table",
           "weight": 150,
           "quality": 3,
-          "name": "rpgloot:epic_items"
+          "value": "rpgloot:epic_items"
         },
         {
           "type": "loot_table",
           "weight": 30,
           "quality": 5,
-          "name": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "item",
@@ -367,6 +328,55 @@
       "conditions": [
         {
           "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:spire_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:eye_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 19
         }
       ]
     }

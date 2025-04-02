@@ -15,63 +15,32 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
+          "value": "rpgloot:rare_items",
           "weight": 100,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:epic_items",
+          "value": "rpgloot:epic_items",
           "weight": 25,
           "quality": 3
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_items",
+          "value": "rpgloot:legendary_items",
           "weight": 3,
           "quality": 5
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:golden_egg",
+          "value": "rpgloot:golden_egg",
           "weight": 1,
           "quality": 3
         }
       ]
     },
     {
-      "rolls": {
-        "min": 0.0,
-        "max": 2.0,
-        "type": "minecraft:uniform"
-      },
-      "bonus_rolls": {
-        "min": 0.0,
-        "max": 1.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_potions",
-          "weight": 40,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "rpgloot:epic_potions",
-          "weight": 15,
-          "quality": 3
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_potions",
-          "weight": 3,
-          "quality": 5
-        }
-      ]
-    },
-    {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -134,7 +103,8 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_sword",
@@ -153,7 +123,8 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_chestplate",
@@ -172,7 +143,8 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_helmet",
@@ -191,7 +163,8 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_leggings",
@@ -210,7 +183,8 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_boots",
@@ -273,6 +247,7 @@
       "rolls": 3.0
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -417,6 +392,7 @@
       }
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",
@@ -430,6 +406,7 @@
       "rolls": 1.0
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",

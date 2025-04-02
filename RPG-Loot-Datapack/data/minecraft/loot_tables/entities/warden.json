@@ -2,45 +2,6 @@
   "type": "entity",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 19
-        },
-        {
-          "type": "item",
-          "weight": 6,
-          "name": "minecraft:silence_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 25,
-          "name": "minecraft:ward_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "rolls": {
         "min": 2,
         "max": 8,
@@ -54,7 +15,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "rpgloot:experience"
+          "value": "rpgloot:experience"
         }
       ],
       "conditions": [
@@ -79,19 +40,19 @@
           "type": "loot_table",
           "weight": 400,
           "quality": 1,
-          "name": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "loot_table",
           "weight": 150,
           "quality": 3,
-          "name": "rpgloot:epic_items"
+          "value": "rpgloot:epic_items"
         },
         {
           "type": "loot_table",
           "weight": 10,
           "quality": 5,
-          "name": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "item",
@@ -305,24 +266,74 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "empty",
+          "weight": 19
+        },
+        {
           "type": "item",
+          "weight": 6,
+          "name": "minecraft:silence_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:ward_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:echo_shard",
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2,
-                "type": "minecraft:uniform"
+                "max": 2
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         }
@@ -341,12 +352,13 @@
               "count": 1
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         },
@@ -359,17 +371,17 @@
               "function": "set_count",
               "count": {
                 "min": 4,
-                "max": 6,
-                "type": "minecraft:uniform"
+                "max": 6
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 2,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         }
@@ -387,17 +399,17 @@
               "function": "set_count",
               "count": {
                 "min": 2,
-                "max": 4,
-                "type": "minecraft:uniform"
+                "max": 4
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         },
@@ -411,12 +423,13 @@
               "count": 1
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         }
@@ -435,28 +448,24 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{BlockStateTag:{can_summon:true}}"
-            },
-            {
-              "function": "set_name",
-              "name": {
-                "translate": "item.rpgloot.legendary.sculk_shrieker",
-                "fallback": "Ancient Sculk Shrieker",
-                "color": "dark_blue",
-                "italic": false
+              "function": "set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "can_summon": "true"
+                }
               }
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
-                  "color": "gold",
-                  "italic": false
+                  "color": "dark_gray",
+                  "fallback": "Can Summon",
+                  "italic": false,
+                  "translate": "item.uncraftable.sculk_shrieker.lore"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -470,12 +479,13 @@
               "count": 1
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         }

@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "rpgloot:experience"
+          "value": "rpgloot:experience"
         }
       ],
       "conditions": [
@@ -40,19 +40,19 @@
           "type": "loot_table",
           "weight": 20,
           "quality": 0,
-          "name": "rpgloot:uncommon_items"
+          "value": "rpgloot:uncommon_items"
         },
         {
           "type": "loot_table",
           "weight": 8,
           "quality": 1,
-          "name": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "loot_table",
           "weight": 3,
           "quality": 3,
-          "name": "rpgloot:epic_items"
+          "value": "rpgloot:epic_items"
         },
         {
           "type": "item",
@@ -130,63 +130,19 @@
     {
       "rolls": {
         "min": 1,
-        "max": 2
+        "max": 2,
+        "type": "minecraft:uniform"
       },
       "bonus_rolls": {
         "min": 0,
-        "max": 1
+        "max": 1,
+        "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "item",
-          "weight": 3,
-          "name": "minecraft:melon_slice",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 12,
-                "max": 18,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 3,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
           "weight": 1,
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 4,
-                "max": 6,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "minecraft:bread",
+          "name": "minecraft:beetroot",
           "functions": [
             {
               "function": "set_count",
@@ -197,35 +153,13 @@
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 2,
                 "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 3,
-          "name": "minecraft:potato",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 8,
-                "max": 12,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 3,
-                "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         },
@@ -243,28 +177,68 @@
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 3,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "entries": [
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 12,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 3,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 9,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 2,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        },
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:apple",
           "functions": [
             {
               "function": "set_count",
@@ -275,15 +249,50 @@
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:melon_slice",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 12,
+                "max": 18,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 3,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
         {
           "type": "item",
           "weight": 2,
@@ -298,12 +307,37 @@
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 2,
                 "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6,
+                "type": "minecraft:uniform"
               }
+            },
+            {
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         }
@@ -314,6 +348,7 @@
       "entries": [
         {
           "type": "item",
+          "weight": 1,
           "name": "minecraft:rotten_flesh",
           "functions": [
             {
@@ -325,12 +360,13 @@
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 4,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         }
@@ -349,12 +385,13 @@
               "count": 1
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         },
@@ -372,12 +409,13 @@
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         },
@@ -395,12 +433,13 @@
               }
             },
             {
-              "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 2,
                 "type": "minecraft:uniform"
-              }
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ]
         }

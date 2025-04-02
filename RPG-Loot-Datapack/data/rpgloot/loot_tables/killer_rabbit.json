@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "rpgloot:experience"
+          "value": "rpgloot:experience"
         }
       ]
     },
@@ -33,19 +33,19 @@
           "type": "loot_table",
           "weight": 75,
           "quality": 1,
-          "name": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "loot_table",
           "weight": 30,
           "quality": 3,
-          "name": "rpgloot:epic_items"
+          "value": "rpgloot:epic_items"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 5,
-          "name": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "item",

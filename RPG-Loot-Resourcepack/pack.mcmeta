@@ -4,10 +4,10 @@
       "translate": "resourcepack.rpgloot.description",
       "fallback": "§fTranslations for §3RPG Loot§r pack"
     },
-    "pack_format": 15,
+    "pack_format": 34,
     "supported_formats": {
-      "min_inclusive": 15,
-      "max_inclusive": 15
+      "min_inclusive": 34,
+      "max_inclusive": 34
     }
   }
 }

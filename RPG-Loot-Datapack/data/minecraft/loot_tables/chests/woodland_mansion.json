@@ -15,25 +15,25 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:uncommon_items",
+          "value": "rpgloot:uncommon_items",
           "weight": 100,
           "quality": 0
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
+          "value": "rpgloot:rare_items",
           "weight": 40,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:epic_items",
+          "value": "rpgloot:epic_items",
           "weight": 10,
           "quality": 3
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_items",
+          "value": "rpgloot:legendary_items",
           "weight": 1,
           "quality": 5
         }
@@ -53,31 +53,32 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:uncommon_potions",
+          "value": "rpgloot:uncommon_potions",
           "weight": 100,
           "quality": 0
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_potions",
+          "value": "rpgloot:rare_potions",
           "weight": 40,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:epic_potions",
+          "value": "rpgloot:epic_potions",
           "weight": 15,
           "quality": 3
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_potions",
+          "value": "rpgloot:legendary_potions",
           "weight": 3,
           "quality": 5
         }
       ]
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -128,7 +129,8 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book",
@@ -142,6 +144,7 @@
       }
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -289,6 +292,7 @@
       }
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -358,6 +362,7 @@
       "rolls": 3.0
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty"

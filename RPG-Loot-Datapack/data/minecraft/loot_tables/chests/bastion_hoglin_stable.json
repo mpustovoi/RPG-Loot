@@ -15,31 +15,32 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
+          "value": "rpgloot:rare_items",
           "weight": 200,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:epic_items",
+          "value": "rpgloot:epic_items",
           "weight": 50,
           "quality": 3
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_items",
+          "value": "rpgloot:legendary_items",
           "weight": 3,
           "quality": 5
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:golden_egg",
+          "value": "rpgloot:golden_egg",
           "weight": 1,
           "quality": 3
         }
       ]
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -54,7 +55,8 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_shovel",
@@ -78,7 +80,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_pickaxe",
@@ -180,6 +183,7 @@
       "rolls": 1.0
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -190,7 +194,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:golden_axe"
@@ -398,6 +403,7 @@
       }
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",
@@ -411,6 +417,7 @@
       "rolls": 1.0
     },
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",

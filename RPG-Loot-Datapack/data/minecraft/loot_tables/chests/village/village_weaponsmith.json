@@ -15,19 +15,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:uncommon_items",
+          "value": "rpgloot:uncommon_items",
           "weight": 20,
           "quality": 0
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
+          "value": "rpgloot:rare_items",
           "weight": 6,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:epic_items",
+          "value": "rpgloot:epic_items",
           "weight": 1,
           "quality": 3
         }
