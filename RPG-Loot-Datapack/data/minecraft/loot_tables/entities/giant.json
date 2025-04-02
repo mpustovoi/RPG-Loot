@@ -60,10 +60,6 @@
           "name": "minecraft:iron_sword",
           "functions": [
             {
-              "function": "set_damage",
-              "damage": 140
-            },
-            {
               "function": "set_name",
               "name": {
                 "translate": "item.rpgloot.epic.giant_iron_sword",
