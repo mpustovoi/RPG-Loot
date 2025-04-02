@@ -33,7 +33,6 @@
         "max": 8.0,
         "min": 3.0
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
