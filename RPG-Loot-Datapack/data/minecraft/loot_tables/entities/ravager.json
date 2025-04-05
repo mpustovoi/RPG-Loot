@@ -69,14 +69,12 @@
             },
             {
               "function": "set_name",
-              "name": [
-                {
-                  "translate": "item.rpgloot.epic.raid_horn",
-                  "fallback": "Raid Horn",
-                  "color": "dark_purple",
-                  "italic": false
-                }
-              ]
+              "name": {
+                "translate": "item.rpgloot.epic.raid_horn",
+                "fallback": "Raid Horn",
+                "color": "dark_purple",
+                "italic": false
+              }
             },
             {
               "function": "set_lore",
