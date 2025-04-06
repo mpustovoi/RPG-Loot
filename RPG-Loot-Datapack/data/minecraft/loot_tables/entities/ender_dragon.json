@@ -157,7 +157,7 @@
         },
         {
           "type": "item",
-          "weight": 9,
+          "weight": 3,
           "quality": 6,
           "name": "minecraft:dragon_head",
           "functions": [
@@ -246,8 +246,8 @@
                   "name": "generic.movement_speed",
                   "operation": "multiply_base",
                   "amount": {
-                    "min": 0.1,
-                    "max": 0.25
+                    "min": -0.25,
+                    "max": -0.1
                   },
                   "slot": "head"
                 }
