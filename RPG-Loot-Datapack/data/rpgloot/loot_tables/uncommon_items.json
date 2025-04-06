@@ -36,7 +36,7 @@
                 {
                   "name": "damage",
                   "attribute": "generic.attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 4,
@@ -47,7 +47,7 @@
                 {
                   "name": "attackSpeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -2.4,
@@ -100,7 +100,7 @@
                 {
                   "name": "damage",
                   "attribute": "generic.attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 5.0,
@@ -111,7 +111,7 @@
                 {
                   "name": "attackSpeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -2.4,
@@ -164,7 +164,7 @@
                 {
                   "name": "damage",
                   "attribute": "generic.attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 4,
@@ -175,7 +175,7 @@
                 {
                   "name": "attackSpeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -2.4,
@@ -232,7 +232,7 @@
                 {
                   "name": "damage",
                   "attribute": "generic.attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 7.0,
@@ -243,7 +243,7 @@
                 {
                   "name": "attackSpeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -3.2,
@@ -296,7 +296,7 @@
                 {
                   "name": "damage",
                   "attribute": "generic.attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 9.0,
@@ -307,7 +307,7 @@
                 {
                   "name": "attackSpeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -3.2,
@@ -360,7 +360,7 @@
                 {
                   "name": "damage",
                   "attribute": "generic.attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 7.0,
@@ -371,7 +371,7 @@
                 {
                   "name": "attackSpeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -3.0,
@@ -427,7 +427,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.0,
@@ -438,7 +438,7 @@
                 {
                   "name": "knockbackResistance",
                   "attribute": "generic.knockback_resistance",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.0,
@@ -482,7 +482,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 1.0,
@@ -493,7 +493,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
@@ -546,7 +546,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 3,
@@ -557,7 +557,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
@@ -610,7 +610,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "legs",
                   "amount": {
                     "min": 2,
@@ -621,7 +621,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "legs",
                   "amount": {
                     "min": 0.0,
@@ -674,7 +674,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet",
                   "amount": {
                     "min": 1,
@@ -685,7 +685,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "feet",
                   "amount": {
                     "min": 0.0,
@@ -738,7 +738,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 2.0,
@@ -749,7 +749,7 @@
                 {
                   "name": "toughness",
                   "attribute": "generic.armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
@@ -760,7 +760,7 @@
                 {
                   "name": "maxhealth",
                   "attribute": "generic.max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
@@ -813,7 +813,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 5,
@@ -824,7 +824,7 @@
                 {
                   "name": "toughness",
                   "attribute": "generic.armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
@@ -835,7 +835,7 @@
                 {
                   "name": "maxhealth",
                   "attribute": "generic.max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
@@ -888,7 +888,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "legs",
                   "amount": {
                     "min": 4,
@@ -899,7 +899,7 @@
                 {
                   "name": "toughness",
                   "attribute": "generic.armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "legs",
                   "amount": {
                     "min": 0.0,
@@ -910,7 +910,7 @@
                 {
                   "name": "maxhealth",
                   "attribute": "generic.max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "legs",
                   "amount": {
                     "min": 0.0,
@@ -963,7 +963,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet",
                   "amount": {
                     "min": 1,
@@ -974,7 +974,7 @@
                 {
                   "name": "toughness",
                   "attribute": "generic.armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet",
                   "amount": {
                     "min": 0.0,
@@ -985,7 +985,7 @@
                 {
                   "name": "maxhealth",
                   "attribute": "generic.max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet",
                   "amount": {
                     "min": 0.0,
@@ -1038,7 +1038,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 2.0,
@@ -1049,7 +1049,7 @@
                 {
                   "name": "attackspeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
@@ -1106,7 +1106,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 5,
@@ -1117,7 +1117,7 @@
                 {
                   "name": "attackspeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
@@ -1174,7 +1174,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "legs",
                   "amount": {
                     "min": 3,
@@ -1185,7 +1185,7 @@
                 {
                   "name": "attackspeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "legs",
                   "amount": {
                     "min": 0.0,
@@ -1242,7 +1242,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet",
                   "amount": {
                     "min": 1,
@@ -1253,7 +1253,7 @@
                 {
                   "name": "attackspeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet",
                   "amount": {
                     "min": 0.0,
@@ -1310,7 +1310,7 @@
                 {
                   "name": "luck",
                   "attribute": "generic.luck",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.5,
@@ -1321,7 +1321,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.02,
@@ -1365,7 +1365,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.03,
@@ -1376,7 +1376,7 @@
                 {
                   "name": "attackspeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.03,

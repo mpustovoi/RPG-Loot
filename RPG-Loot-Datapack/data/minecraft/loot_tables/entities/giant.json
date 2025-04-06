@@ -56,7 +56,7 @@
         },
         {
           "type": "item",
-          "weight": 6,
+          "weight": 5,
           "name": "minecraft:iron_sword",
           "functions": [
             {
@@ -80,20 +80,55 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:looting\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:17,Operation:0,UUID:[I;2070411384,-52737266,-1454322840,231215582],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3.4,Operation:0,UUID:[I;1933654275,-2107879850,-1994527593,-1432196888],Slot:\"mainhand\"}]}"
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_damage",
+                  "id": "generic.attack_damage",
+                  "operation": "add_value",
+                  "amount": {
+                    "min": 16,
+                    "max": 18
+                  },
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "id": "generic.attack_speed",
+                  "operation": "add_value",
+                  "amount": {
+                    "min": -3.5,
+                    "max": -3.3
+                  },
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 4
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:looting"]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:knockback"]
             }
           ]
         },
         {
           "type": "item",
-          "weight": 10,
+          "weight": 8,
           "name": "minecraft:zombie_head",
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-2068105935,-1594670993,-1351133513,1566996427],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-2118373293,1446855907,-1944223669,1765339405],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.4,Operation:1,UUID:[I;-1387626667,1235504854,-1937878848,1477767338],Slot:\"head\"}]}"
-            },
             {
               "function": "set_name",
               "name": {
@@ -115,8 +150,58 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-2068105935,-1594670993,-1351133513,1566996427],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-2118373293,1446855907,-1944223669,1765339405],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.4,Operation:1,UUID:[I;-1387626667,1235504854,-1937878848,1477767338],Slot:\"head\"}]}"
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.max_health",
+                  "id": "generic.max_health",
+                  "operation": "add_value",
+                  "amount": {
+                    "min": 9,
+                    "max": 10
+                  },
+                  "slot": "head"
+                },
+                {
+                  "attribute": "generic.armor",
+                  "id": "generic.armor",
+                  "operation": "add_value",
+                  "amount": {
+                    "min": 3,
+                    "max": 5
+                  },
+                  "slot": "head"
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "id": "generic.attack_speed",
+                  "operation": "add_value",
+                  "amount": {
+                    "min": -0.5,
+                    "max": -0.4
+                  },
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 6
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:fire_protection"]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:binding_curse"]
             }
           ]
         }
@@ -380,10 +465,6 @@
           "weight": 1,
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "count": {
                 "min": 0,

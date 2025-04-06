@@ -10,10 +10,6 @@
           "name": "minecraft:slime_spawn_egg",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_components",
               "components": {
                 "minecraft:entity_data": {
@@ -24,14 +20,12 @@
             },
             {
               "function": "set_name",
-              "name": [
-                {
-                  "color": "dark_purple",
-                  "fallback": "Experience Orb Spawn Egg",
-                  "italic": false,
-                  "translate": "item.rpgloot.epic.experience_orb_spawn_egg"
-                }
-              ]
+              "name": {
+                "color": "dark_purple",
+                "fallback": "Experience Orb Spawn Egg",
+                "italic": false,
+                "translate": "item.rpgloot.epic.experience_orb_spawn_egg"
+              }
             },
             {
               "function": "set_lore",
@@ -42,21 +36,14 @@
                   "italic": false,
                   "translate": "item.rpgloot.epic.lore"
                 }
-              ],
-              "mode": "append"
+              ]
             }
           ]
         },
         {
           "type": "item",
           "weight": 999,
-          "name": "minecraft:experience_bottle",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:experience_bottle"
         }
       ]
     }

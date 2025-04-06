@@ -77,8 +77,8 @@
               "modifiers": [
                 {
                   "attribute": "generic.luck",
-                  "name": "generic.luck",
-                  "operation": "addition",
+                  "id": "generic.luck",
+                  "operation": "add_value",
                   "amount": {
                     "min": 2.5,
                     "max": 3.5
@@ -87,8 +87,8 @@
                 },
                 {
                   "attribute": "generic.attack_damage",
-                  "name": "generic.attack_damage",
-                  "operation": "addition",
+                  "id": "generic.attack_damage",
+                  "operation": "add_value",
                   "amount": {
                     "min": 3,
                     "max": 5
@@ -130,8 +130,8 @@
               "modifiers": [
                 {
                   "attribute": "generic.armor",
-                  "name": "generic.armor",
-                  "operation": "addition",
+                  "id": "generic.armor",
+                  "operation": "add_value",
                   "amount": {
                     "min": 5,
                     "max": 6.5
@@ -140,8 +140,8 @@
                 },
                 {
                   "attribute": "generic.armor_toughness",
-                  "name": "generic.armor_toughness",
-                  "operation": "addition",
+                  "id": "generic.armor_toughness",
+                  "operation": "add_value",
                   "amount": {
                     "min": 0,
                     "max": 2
@@ -150,8 +150,8 @@
                 },
                 {
                   "attribute": "generic.movement_speed",
-                  "name": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "id": "generic.movement_speed",
+                  "operation": "add_multiplied_base",
                   "amount": {
                     "min": 0.1,
                     "max": 0.25
@@ -160,8 +160,8 @@
                 },
                 {
                   "attribute": "generic.max_health",
-                  "name": "generic.max_health",
-                  "operation": "addition",
+                  "id": "generic.max_health",
+                  "operation": "add_value",
                   "amount": {
                     "min": 9,
                     "max": 14
@@ -170,8 +170,8 @@
                 },
                 {
                   "attribute": "generic.knockback_resistance",
-                  "name": "generic.knockback_resistance",
-                  "operation": "addition",
+                  "id": "generic.knockback_resistance",
+                  "operation": "add_value",
                   "amount": {
                     "min": 0,
                     "max": 0.2
@@ -180,8 +180,8 @@
                 },
                 {
                   "attribute": "generic.attack_damage",
-                  "name": "generic.attack_damage",
-                  "operation": "addition",
+                  "id": "generic.attack_damage",
+                  "operation": "add_value",
                   "amount": {
                     "min": 0.2,
                     "max": 2
@@ -190,8 +190,8 @@
                 },
                 {
                   "attribute": "generic.attack_speed",
-                  "name": "generic.attack_speed",
-                  "operation": "addition",
+                  "id": "generic.attack_speed",
+                  "operation": "add_value",
                   "amount": {
                     "min": 0,
                     "max": 0.1
@@ -200,8 +200,8 @@
                 },
                 {
                   "attribute": "generic.luck",
-                  "name": "generic.luck",
-                  "operation": "addition",
+                  "id": "generic.luck",
+                  "operation": "add_value",
                   "amount": {
                     "min": 0.2,
                     "max": 0.5
@@ -247,8 +247,8 @@
               "modifiers": [
                 {
                   "attribute": "generic.attack_damage",
-                  "name": "generic.attack_damage",
-                  "operation": "addition",
+                  "id": "generic.attack_damage",
+                  "operation": "add_value",
                   "amount": {
                     "min": 8,
                     "max": 10
@@ -257,8 +257,8 @@
                 },
                 {
                   "attribute": "generic.attack_speed",
-                  "name": "generic.attack_speed",
-                  "operation": "addition",
+                  "id": "generic.attack_speed",
+                  "operation": "add_value",
                   "amount": {
                     "min": -2,
                     "max": -1.7
@@ -267,8 +267,8 @@
                 },
                 {
                   "attribute": "generic.movement_speed",
-                  "name": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "id": "generic.movement_speed",
+                  "operation": "add_multiplied_base",
                   "amount": {
                     "min": 0.1,
                     "max": 0.25
@@ -277,8 +277,8 @@
                 },
                 {
                   "attribute": "generic.luck",
-                  "name": "generic.luck",
-                  "operation": "addition",
+                  "id": "generic.luck",
+                  "operation": "add_value",
                   "amount": {
                     "min": 0.2,
                     "max": 0.5

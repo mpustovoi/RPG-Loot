@@ -69,7 +69,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 1.0,
@@ -80,7 +80,7 @@
                 {
                   "name": "maxhealth",
                   "attribute": "generic.max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.5,
@@ -91,7 +91,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
@@ -100,6 +100,10 @@
                   }
                 }
               ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:unbreaking"]
             }
           ]
         },
@@ -135,7 +139,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 2.0,
@@ -146,7 +150,7 @@
                 {
                   "name": "maxhealth",
                   "attribute": "generic.max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 2.0,
@@ -157,7 +161,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
@@ -166,6 +170,10 @@
                   }
                 }
               ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:unbreaking"]
             }
           ]
         },
@@ -200,7 +208,7 @@
                 {
                   "name": "armor",
                   "attribute": "generic.armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 3.0,
@@ -211,7 +219,7 @@
                 {
                   "name": "maxhealth",
                   "attribute": "generic.max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 4.0,
@@ -222,7 +230,7 @@
                 {
                   "name": "movementspeed",
                   "attribute": "generic.movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "chest",
                   "amount": {
                     "min": 0.1,
@@ -233,7 +241,7 @@
                 {
                   "name": "attackdamage",
                   "attribute": "generic.attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 1.0,
@@ -244,7 +252,7 @@
                 {
                   "name": "attackspeed",
                   "attribute": "generic.attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
@@ -255,7 +263,7 @@
                 {
                   "name": "luck",
                   "attribute": "generic.luck",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.2,
@@ -266,8 +274,14 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:unbreaking"]
             }
           ]
         }

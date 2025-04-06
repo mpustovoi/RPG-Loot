@@ -10,10 +10,6 @@
           "name": "minecraft:blaze_spawn_egg",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_components",
               "components": {
                 "minecraft:entity_data": {
@@ -41,8 +37,7 @@
                           "entity": {
                             "id": "minecraft:item",
                             "Item": {
-                              "id": "minecraft:raw_gold",
-                              "count": 1
+                              "id": "minecraft:raw_gold"
                             }
                           }
                         }
@@ -54,14 +49,12 @@
             },
             {
               "function": "set_name",
-              "name": [
-                {
-                  "color": "gold",
-                  "fallback": "Golden Egg",
-                  "italic": false,
-                  "translate": "item.rpgloot.legendary.golden_egg"
-                }
-              ]
+              "name": {
+                "color": "gold",
+                "fallback": "Golden Egg",
+                "italic": false,
+                "translate": "item.rpgloot.legendary.golden_egg"
+              }
             },
             {
               "function": "set_lore",
@@ -72,8 +65,7 @@
                   "italic": false,
                   "translate": "item.rpgloot.legendary.lore"
                 }
-              ],
-              "mode": "append"
+              ]
             }
           ]
         }

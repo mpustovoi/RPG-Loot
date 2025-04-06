@@ -61,10 +61,6 @@
           "name": "minecraft:diamond_hoe",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:smite\",lvl:6s},{id:\"minecraft:looting\",lvl:4s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:fortune\",lvl:4s}]}"
-            },
-            {
               "function": "set_name",
               "name": {
                 "translate": "item.rpgloot.legendary.silent_scythe",
@@ -89,8 +85,8 @@
               "modifiers": [
                 {
                   "attribute": "generic.attack_damage",
-                  "name": "generic.attack_damage",
-                  "operation": "addition",
+                  "id": "generic.attack_damage",
+                  "operation": "add_value",
                   "amount": {
                     "min": 17,
                     "max": 19
@@ -99,8 +95,8 @@
                 },
                 {
                   "attribute": "generic.attack_speed",
-                  "name": "generic.attack_speed",
-                  "operation": "addition",
+                  "id": "generic.attack_speed",
+                  "operation": "add_value",
                   "amount": {
                     "min": -3.4,
                     "max": -3.2
@@ -108,6 +104,30 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 8
+                  }
+                },
+                "minecraft:instrument": "minecraft:seek_goat_horn"
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:looting"]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:sharpness"]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -117,10 +137,6 @@
           "quality": 6,
           "name": "minecraft:diamond_leggings",
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:swift_sneak\",lvl:4s}],Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:silence\"}}"
-            },
             {
               "function": "set_name",
               "name": {
@@ -146,8 +162,8 @@
               "modifiers": [
                 {
                   "attribute": "generic.armor",
-                  "name": "generic.armor",
-                  "operation": "addition",
+                  "id": "generic.armor",
+                  "operation": "add_value",
                   "amount": {
                     "min": 6,
                     "max": 9
@@ -156,8 +172,8 @@
                 },
                 {
                   "attribute": "generic.armor_toughness",
-                  "name": "generic.armor_toughness",
-                  "operation": "addition",
+                  "id": "generic.armor_toughness",
+                  "operation": "add_value",
                   "amount": {
                     "min": 2,
                     "max": 3
@@ -166,8 +182,8 @@
                 },
                 {
                   "attribute": "generic.max_health",
-                  "name": "generic.max_health",
-                  "operation": "addition",
+                  "id": "generic.max_health",
+                  "operation": "add_value",
                   "amount": {
                     "min": 6,
                     "max": 10
@@ -175,6 +191,29 @@
                   "slot": "legs"
                 }
               ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:swift_sneak": 4
+                  }
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:lapis",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:fire_protection"]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:binding_curse"]
             }
           ]
         },
@@ -184,10 +223,6 @@
           "quality": 6,
           "name": "minecraft:diamond_boots",
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:feather_falling\",lvl:4s}],Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:silence\"}}"
-            },
             {
               "function": "set_name",
               "name": {
@@ -213,8 +248,8 @@
               "modifiers": [
                 {
                   "attribute": "generic.armor",
-                  "name": "generic.armor",
-                  "operation": "addition",
+                  "id": "generic.armor",
+                  "operation": "add_value",
                   "amount": {
                     "min": 4,
                     "max": 5
@@ -223,8 +258,8 @@
                 },
                 {
                   "attribute": "generic.armor_toughness",
-                  "name": "generic.armor_toughness",
-                  "operation": "addition",
+                  "id": "generic.armor_toughness",
+                  "operation": "add_value",
                   "amount": {
                     "min": 2,
                     "max": 3
@@ -233,8 +268,8 @@
                 },
                 {
                   "attribute": "generic.knockback_resistance",
-                  "name": "generic.knockback_resistance",
-                  "operation": "addition",
+                  "id": "generic.knockback_resistance",
+                  "operation": "add_value",
                   "amount": {
                     "min": 0.1,
                     "max": 0.3
@@ -243,8 +278,8 @@
                 },
                 {
                   "attribute": "generic.max_health",
-                  "name": "generic.max_health",
-                  "operation": "addition",
+                  "id": "generic.max_health",
+                  "operation": "add_value",
                   "amount": {
                     "min": 4,
                     "max": 6
@@ -252,6 +287,29 @@
                   "slot": "feet"
                 }
               ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:feather_falling": 6
+                  }
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:lapis",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:fire_protection"]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:binding_curse"]
             }
           ]
         }
@@ -275,10 +333,6 @@
           "name": "minecraft:silence_armor_trim_smithing_template",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "count": {
                 "min": 0,
                 "max": 1,
@@ -294,10 +348,6 @@
           "weight": 25,
           "name": "minecraft:ward_armor_trim_smithing_template",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "count": {
                 "min": 0,
@@ -347,10 +397,6 @@
           "weight": 1,
           "name": "minecraft:sculk_sensor",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "count": {
                 "min": 0,
@@ -419,10 +465,6 @@
           "name": "minecraft:sculk_catalyst",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "count": {
                 "min": 0,
                 "max": 1,
@@ -444,10 +486,6 @@
           "name": "minecraft:sculk_shrieker",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_components",
               "components": {
                 "minecraft:block_state": {
@@ -464,8 +502,7 @@
                   "italic": false,
                   "translate": "item.uncraftable.sculk_shrieker.lore"
                 }
-              ],
-              "mode": "append"
+              ]
             }
           ]
         },
@@ -474,10 +511,6 @@
           "weight": 999,
           "name": "minecraft:sculk_shrieker",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "count": {
                 "min": 0,

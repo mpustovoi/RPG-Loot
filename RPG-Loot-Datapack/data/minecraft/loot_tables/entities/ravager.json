@@ -60,23 +60,13 @@
           "name": "minecraft:goat_horn",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:looting\",lvl:4s}],instrument:\"minecraft:seek_goat_horn\"}"
-            },
-            {
               "function": "set_name",
-              "name": [
-                {
-                  "translate": "item.rpgloot.epic.raid_horn",
-                  "fallback": "Raid Horn",
-                  "color": "dark_purple",
-                  "italic": false
-                }
-              ]
+              "name": {
+                "translate": "item.rpgloot.epic.raid_horn",
+                "fallback": "Raid Horn",
+                "color": "dark_purple",
+                "italic": false
+              }
             },
             {
               "function": "set_lore",
@@ -94,8 +84,8 @@
               "modifiers": [
                 {
                   "attribute": "generic.attack_damage",
-                  "name": "generic.attack_damage",
-                  "operation": "addition",
+                  "id": "generic.attack_damage",
+                  "operation": "add_value",
                   "amount": {
                     "min": 3,
                     "max": 5
@@ -104,8 +94,8 @@
                 },
                 {
                   "attribute": "generic.attack_speed",
-                  "name": "generic.attack_speed",
-                  "operation": "addition",
+                  "id": "generic.attack_speed",
+                  "operation": "add_value",
                   "amount": {
                     "min": -1.6,
                     "max": -1.2
@@ -113,6 +103,18 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 2,
+                    "minecraft:looting": 4
+                  }
+                },
+                "minecraft:instrument": "minecraft:seek_goat_horn"
+              }
             }
           ]
         }
@@ -132,10 +134,6 @@
           "name": "minecraft:vex_armor_trim_smithing_template",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "count": {
                 "min": 0,
                 "max": 1,
@@ -151,10 +149,6 @@
           "weight": 25,
           "name": "minecraft:sentry_armor_trim_smithing_template",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "count": {
                 "min": 0,
@@ -178,13 +172,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:saddle",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:saddle"
         }
       ]
     },

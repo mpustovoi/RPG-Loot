@@ -32,10 +32,6 @@
           "name": "minecraft:dune_armor_trim_smithing_template",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "count": {
                 "min": 0,
                 "max": 1,
