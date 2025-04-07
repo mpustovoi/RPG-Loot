@@ -59,7 +59,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -71,7 +70,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-          "weight": 80,
+          "weight": 8,
           "quality": 4,
           "functions": [
             {
@@ -103,7 +102,7 @@
                   "operation": "addition",
                   "slot": "mainhand",
                   "amount": {
-                    "min": 4,
+                    "min": 4.4,
                     "max": 4.8,
                     "type": "minecraft:uniform"
                   }
@@ -114,8 +113,8 @@
                   "operation": "addition",
                   "slot": "mainhand",
                   "amount": {
-                    "min": -2.4,
-                    "max": -2.06,
+                    "min": -2.0,
+                    "max": -1.66,
                     "type": "minecraft:uniform"
                   }
                 }
@@ -127,7 +126,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -191,7 +189,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -255,7 +252,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -267,7 +263,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
-          "weight": 80,
+          "weight": 8,
           "quality": 4,
           "functions": [
             {
@@ -299,7 +295,7 @@
                   "operation": "addition",
                   "slot": "mainhand",
                   "amount": {
-                    "min": 7.0,
+                    "min": 8.4,
                     "max": 9.8,
                     "type": "minecraft:uniform"
                   }
@@ -310,8 +306,8 @@
                   "operation": "addition",
                   "slot": "mainhand",
                   "amount": {
-                    "min": -3.0,
-                    "max": -2.8,
+                    "min": -2.6,
+                    "max": -2.4,
                     "type": "minecraft:uniform"
                   }
                 }
@@ -323,7 +319,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -387,7 +382,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -561,7 +555,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -658,7 +651,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -755,7 +747,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -852,7 +843,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -864,7 +854,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
-          "weight": 80,
+          "weight": 8,
           "quality": 4,
           "functions": [
             {
@@ -929,8 +919,8 @@
                   "operation": "addition",
                   "slot": "head",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
@@ -942,7 +932,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -954,7 +943,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
-          "weight": 80,
+          "weight": 8,
           "quality": 4,
           "functions": [
             {
@@ -1019,8 +1008,8 @@
                   "operation": "addition",
                   "slot": "chest",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
@@ -1032,7 +1021,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -1044,7 +1032,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
-          "weight": 80,
+          "weight": 8,
           "quality": 4,
           "functions": [
             {
@@ -1109,8 +1097,8 @@
                   "operation": "addition",
                   "slot": "legs",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
@@ -1122,7 +1110,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -1134,7 +1121,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "weight": 80,
+          "weight": 8,
           "quality": 4,
           "functions": [
             {
@@ -1199,8 +1186,8 @@
                   "operation": "addition",
                   "slot": "feet",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
@@ -1212,7 +1199,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -1298,7 +1284,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1384,7 +1369,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1470,7 +1454,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1556,7 +1539,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1642,7 +1624,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,

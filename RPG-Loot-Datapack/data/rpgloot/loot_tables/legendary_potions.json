@@ -112,7 +112,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4},{Id:11,Amplifier:4,Duration:600},{Id:12,Duration:600}],CustomPotionColor:16777215}"
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4,Duration:20},{Id:11,Amplifier:4,Duration:600},{Id:12,Duration:600}],CustomPotionColor:16777215}"
             },
             {
               "function": "minecraft:set_count",

@@ -63,10 +63,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -131,10 +130,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -199,10 +197,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
-                "max": 60,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -267,10 +264,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -335,10 +331,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -403,10 +398,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
-                "max": 60,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -475,10 +469,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -676,10 +669,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -755,14 +747,17 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:quick_charge,lvl:5},{id:infinity,lvl:1}]}"
+              "tag": "{Enchantments:[{id:quick_charge,lvl:5}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:infinity"]
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -842,10 +837,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -1123,7 +1117,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:6},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:efficiency,lvl:6}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1186,7 +1184,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:8},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:efficiency,lvl:8}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1249,7 +1251,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:10},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:efficiency,lvl:10}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1312,7 +1318,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:6},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:efficiency,lvl:6}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1375,7 +1385,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:8},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:efficiency,lvl:8}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1438,7 +1452,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:10},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:efficiency,lvl:10}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1714,7 +1732,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:4},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:looting,lvl:4}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1781,7 +1803,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:6},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:looting,lvl:6}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1848,7 +1874,11 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:8},{id:silk_touch,lvl:1}]}"
+              "tag": "{Enchantments:[{id:looting,lvl:8}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -2099,10 +2129,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -2233,10 +2262,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -2367,10 +2395,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -2501,10 +2528,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -2635,10 +2661,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -2769,10 +2794,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -2903,10 +2927,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -3037,10 +3060,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -3171,10 +3193,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
-                "max": 60,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -3305,10 +3326,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
-                "max": 60,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -3439,10 +3459,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
-                "max": 60,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -3573,10 +3592,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
-                "max": 60,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }
@@ -3696,10 +3714,9 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 12,
+                "max": 36,
                 "type": "minecraft:uniform"
               }
             }

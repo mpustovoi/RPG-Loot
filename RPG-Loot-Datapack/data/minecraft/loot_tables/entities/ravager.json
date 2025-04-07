@@ -111,6 +111,10 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:knockback"]
             }
           ]
         }
