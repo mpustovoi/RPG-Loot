@@ -31,8 +31,24 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4,Duration:20},{Id:10,Amplifier:2,Duration:2400}],CustomPotionColor:16770102}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16770102,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 4,
+                      "duration": 20
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 2400
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -71,8 +87,44 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:2,Duration:20},{Id:11,Amplifier:0,Duration:3600},{Id:12,Amplifier:0,Duration:3600},{Id:21,Amplifier:4,Duration:3600},{Id:22,Amplifier:4,Duration:3600,ShowParticles:0b},{Id:23,Amplifier:0,Duration:3600}],CustomPotionColor:16775800}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16775800,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 2,
+                      "duration": 20
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 0,
+                      "duration": 3600
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 3600
+                    },
+                    {
+                      "id": "minecraft:health_boost",
+                      "amplifier": 4,
+                      "duration": 3600
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 4,
+                      "duration": 3600
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 0,
+                      "duration": 3600
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -111,8 +163,29 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4},{Id:11,Amplifier:4,Duration:600},{Id:12,Duration:600}],CustomPotionColor:16777215}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16777215,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 4,
+                      "duration": 20
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 4,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_count",

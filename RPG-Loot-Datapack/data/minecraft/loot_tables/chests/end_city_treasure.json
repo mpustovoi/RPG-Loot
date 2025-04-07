@@ -102,8 +102,12 @@
               ]
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:unbreaking"]
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 9,
+                "max": 21,
+                "type": "minecraft:uniform"
+              }
             }
           ]
         },
@@ -172,8 +176,12 @@
               ]
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:unbreaking"]
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 28,
+                "type": "minecraft:uniform"
+              }
             }
           ]
         },
@@ -280,8 +288,12 @@
               }
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:unbreaking"]
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 48,
+                "type": "minecraft:uniform"
+              }
             }
           ]
         }

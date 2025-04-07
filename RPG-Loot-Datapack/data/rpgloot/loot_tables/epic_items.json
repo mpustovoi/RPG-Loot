@@ -59,7 +59,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -123,7 +122,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -187,7 +185,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -251,7 +248,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -315,7 +311,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -379,7 +374,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -443,7 +437,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -507,7 +500,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -571,7 +563,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -633,12 +624,7 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:3},{id:loyalty,lvl:3}]}"
-            },
-            {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -779,7 +765,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -843,7 +828,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -940,7 +924,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1037,7 +1020,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1134,7 +1116,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1231,7 +1212,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1328,7 +1308,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1425,7 +1404,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1522,7 +1500,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1619,7 +1596,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1705,7 +1681,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1791,7 +1766,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1877,7 +1851,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -1963,7 +1936,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,
@@ -2049,7 +2021,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 28,

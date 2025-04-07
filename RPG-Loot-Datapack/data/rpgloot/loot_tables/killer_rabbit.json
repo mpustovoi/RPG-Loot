@@ -211,8 +211,23 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b,Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:dune\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:riptide": 5
+                  }
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:emerald",
+                  "pattern": "minecraft:dune"
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:projectile_protection"]
             }
           ]
         },
@@ -288,8 +303,14 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:sweeping"]
             }
           ]
         }

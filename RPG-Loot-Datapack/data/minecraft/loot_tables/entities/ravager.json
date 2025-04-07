@@ -109,12 +109,15 @@
               "components": {
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:knockback": 2,
                     "minecraft:looting": 4
                   }
                 },
                 "minecraft:instrument": "minecraft:seek_goat_horn"
               }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:knockback"]
             }
           ]
         }

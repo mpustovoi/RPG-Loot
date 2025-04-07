@@ -59,7 +59,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -71,7 +70,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-          "weight": 80,
+          "weight": 8,
           "quality": 4,
           "functions": [
             {
@@ -103,7 +102,7 @@
                   "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
-                    "min": 4,
+                    "min": 4.4,
                     "max": 4.8,
                     "type": "minecraft:uniform"
                   }
@@ -114,20 +113,26 @@
                   "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
-                    "min": -2.4,
-                    "max": -2.06,
+                    "min": -2.0,
+                    "max": -1.66,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -191,7 +196,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -255,7 +259,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -299,7 +302,7 @@
                   "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
-                    "min": 7.0,
+                    "min": 8.4,
                     "max": 9.8,
                     "type": "minecraft:uniform"
                   }
@@ -310,20 +313,26 @@
                   "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
-                    "min": -3.0,
-                    "max": -2.8,
+                    "min": -2.6,
+                    "max": -2.4,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -387,7 +396,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -561,7 +569,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -658,7 +665,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -755,7 +761,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -852,7 +857,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -929,20 +933,26 @@
                   "operation": "add_value",
                   "slot": "head",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -1019,20 +1029,26 @@
                   "operation": "add_value",
                   "slot": "chest",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -1109,20 +1125,26 @@
                   "operation": "add_value",
                   "slot": "legs",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -1199,20 +1221,26 @@
                   "operation": "add_value",
                   "slot": "feet",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
+                    "min": 0.1,
+                    "max": 0.15,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:5},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 60,
                 "max": 64,
@@ -1298,7 +1326,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1384,7 +1411,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1470,7 +1496,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1556,7 +1581,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,
@@ -1642,7 +1666,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 9,
                 "max": 21,

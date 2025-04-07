@@ -59,7 +59,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 10,
@@ -123,7 +122,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 15,
@@ -135,7 +133,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-          "weight": 200,
+          "weight": 20,
           "quality": 0,
           "functions": [
             {
@@ -178,20 +176,26 @@
                   "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
-                    "min": -2.4,
-                    "max": -2.2,
+                    "min": -2.0,
+                    "max": -1.8,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 21,
@@ -255,7 +259,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 10,
@@ -319,7 +322,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 15,
@@ -331,7 +333,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
-          "weight": 200,
+          "weight": 20,
           "quality": 0,
           "functions": [
             {
@@ -374,20 +376,26 @@
                   "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
-                    "min": -3.0,
-                    "max": -2.9,
+                    "min": -2.6,
+                    "max": -2.5,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 21,
@@ -505,7 +513,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 10,
@@ -569,7 +576,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 10,
@@ -633,7 +639,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 10,
@@ -697,7 +702,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 10,
@@ -772,7 +776,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 15,
@@ -847,7 +850,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 15,
@@ -922,7 +924,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 15,
@@ -997,7 +998,6 @@
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 0,
                 "max": 15,
@@ -1009,7 +1009,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
-          "weight": 200,
+          "weight": 20,
           "quality": 0,
           "functions": [
             {
@@ -1052,20 +1052,26 @@
                   "operation": "add_value",
                   "slot": "head",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.05,
+                    "min": 0.05,
+                    "max": 0.1,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 21,
@@ -1077,7 +1083,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
-          "weight": 200,
+          "weight": 20,
           "quality": 0,
           "functions": [
             {
@@ -1120,20 +1126,26 @@
                   "operation": "add_value",
                   "slot": "chest",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.05,
+                    "min": 0.05,
+                    "max": 0.1,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 21,
@@ -1145,7 +1157,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
-          "weight": 200,
+          "weight": 20,
           "quality": 0,
           "functions": [
             {
@@ -1188,20 +1200,26 @@
                   "operation": "add_value",
                   "slot": "legs",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.05,
+                    "min": 0.05,
+                    "max": 0.1,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 21,
@@ -1213,7 +1231,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "weight": 200,
+          "weight": 20,
           "quality": 0,
           "functions": [
             {
@@ -1256,20 +1274,26 @@
                   "operation": "add_value",
                   "slot": "feet",
                   "amount": {
-                    "min": 0.0,
-                    "max": 0.05,
+                    "min": 0.05,
+                    "max": 0.1,
                     "type": "minecraft:uniform"
                   }
                 }
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:mending": 1
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
                 "min": 10,
                 "max": 21,

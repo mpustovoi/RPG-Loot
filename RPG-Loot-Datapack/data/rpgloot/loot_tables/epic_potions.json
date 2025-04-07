@@ -31,8 +31,24 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4s,Duration:20},{Id:10,Amplifier:1,Duration:4800}],CustomPotionColor:11534525}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11534525,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 4,
+                      "duration": 20
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 1,
+                      "duration": 4800
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -71,8 +87,29 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:4800},{Id:14,Amplifier:0,Duration:4800},{Id:16,Amplifier:0,Duration:9600}],CustomPotionColor:0}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 0,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 4800
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 0,
+                      "duration": 4800
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 0,
+                      "duration": 9600
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -111,8 +148,29 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:13,Duration:9600},{Id:29,Duration:9600},{Id:30,Duration:9600}],CustomPotionColor:11534525}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11534525,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 0,
+                      "duration": 9600
+                    },
+                    {
+                      "id": "minecraft:conduit_power",
+                      "amplifier": 0,
+                      "duration": 9600
+                    },
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 0,
+                      "duration": 9600
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_count",

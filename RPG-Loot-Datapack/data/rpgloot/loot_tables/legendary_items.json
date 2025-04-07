@@ -58,15 +58,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -126,15 +127,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -194,15 +196,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 60,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -262,15 +265,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -330,15 +334,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -398,15 +403,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 60,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -466,19 +472,22 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:5},{id:loyalty,lvl:5}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:looting": 5,
+                    "minecraft:loyalty": 5
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -593,8 +602,10 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -667,19 +678,22 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:power,lvl:8},{id:punch,lvl:4}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 8,
+                    "minecraft:punch": 4
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -750,19 +764,25 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:quick_charge": 5
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:quick_charge,lvl:5},{id:infinity,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:infinity"]
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -833,19 +853,22 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:piercing,lvl:10},{id:power,lvl:8}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:piercing": 10,
+                    "minecraft:power": 8
+                  }
+                }
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -905,12 +928,15 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:fortune,lvl:4}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 4
+                  }
+                }
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -976,12 +1002,15 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:fortune,lvl:5}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 5
+                  }
+                }
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1047,12 +1076,15 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:fortune,lvl:6}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 6
+                  }
+                }
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1118,12 +1150,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 4
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:6},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1181,12 +1220,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 8
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:8},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1244,12 +1290,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 10
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:10},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1307,13 +1360,20 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 6
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:6},{id:silk_touch,lvl:1}]}"
-            }
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
+            },
           ]
         },
         {
@@ -1370,12 +1430,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 8
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:8},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1433,12 +1500,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 10
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:efficiency,lvl:10},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -1496,12 +1570,15 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:fortune,lvl:4}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 4
+                  }
+                }
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1567,12 +1644,15 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:fortune,lvl:5}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 5
+                  }
+                }
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1638,12 +1718,15 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:fortune,lvl:6}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 6
+                  }
+                }
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1709,12 +1792,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:looting": 4
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:4},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1776,12 +1866,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:looting": 6
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:6},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1843,12 +1940,19 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:looting": 8
+                  }
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:looting,lvl:8},{id:silk_touch,lvl:1}]}"
+              "function": "minecraft:enchant_randomly",
+              "enchantments": ["minecraft:silk_touch"]
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1965,8 +2069,10 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -2094,15 +2200,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -2228,15 +2335,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -2362,15 +2470,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -2496,15 +2605,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -2630,15 +2740,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -2764,15 +2875,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -2898,15 +3010,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -3032,15 +3145,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -3166,15 +3280,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 60,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -3300,15 +3415,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 60,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -3434,15 +3550,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 60,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -3568,15 +3685,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 60,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
@@ -3691,15 +3809,16 @@
               ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "enchant_with_levels",
-              "treasure": false,
               "levels": {
-                "min": 40,
-                "max": 60,
+                "min": 30,
+                "max": 48,
                 "type": "minecraft:uniform"
               }
             }
