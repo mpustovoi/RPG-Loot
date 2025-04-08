@@ -135,7 +135,6 @@
               "name": {
                 "translate": "item.rpgloot.epic.giant_zombie_head",
                 "fallback": "Giant Zombie Head",
-                "color": "dark_green",
                 "italic": false
               }
             },

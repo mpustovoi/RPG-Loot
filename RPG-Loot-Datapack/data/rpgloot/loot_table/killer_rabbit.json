@@ -313,7 +313,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "options": ["minecraft:sweeping"]
+              "options": ["minecraft:sweeping_edge"]
             }
           ]
         }

@@ -64,7 +64,7 @@
               "name": {
                 "translate": "item.rpgloot.epic.typhoon",
                 "fallback": "Typhoon",
-                "color": "dark_purple",
+                "color": "dark_aqua",
                 "italic": false
               }
             },
