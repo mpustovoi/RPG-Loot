@@ -21,6 +21,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -78,6 +79,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -129,6 +131,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -181,6 +184,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -237,6 +241,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -288,6 +293,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",

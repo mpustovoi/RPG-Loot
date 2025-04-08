@@ -70,6 +70,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.epic.lore",
@@ -116,11 +117,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:looting"]
+              "options": ["minecraft:looting"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:knockback"]
+              "options": ["minecraft:knockback"]
             }
           ]
         },
@@ -140,6 +141,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.epic.lore",
@@ -197,11 +199,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:fire_protection"]
+              "options": ["minecraft:fire_protection"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:binding_curse"]
+              "options": ["minecraft:binding_curse"]
             }
           ]
         }

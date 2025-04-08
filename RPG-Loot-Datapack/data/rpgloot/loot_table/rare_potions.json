@@ -21,6 +21,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -72,6 +73,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -136,6 +138,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -192,6 +195,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -248,6 +252,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -304,6 +309,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -360,6 +366,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -411,6 +418,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",

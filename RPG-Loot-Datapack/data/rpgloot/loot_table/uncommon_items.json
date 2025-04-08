@@ -21,6 +21,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -34,7 +35,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "damage",
+                  "id": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -45,7 +46,7 @@
                   }
                 },
                 {
-                  "name": "attackSpeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -84,6 +85,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -97,7 +99,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "damage",
+                  "id": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -108,7 +110,7 @@
                   }
                 },
                 {
-                  "name": "attackSpeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -147,6 +149,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -160,7 +163,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "damage",
+                  "id": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -171,7 +174,7 @@
                   }
                 },
                 {
-                  "name": "attackSpeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -221,6 +224,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -234,7 +238,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "damage",
+                  "id": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -245,7 +249,7 @@
                   }
                 },
                 {
-                  "name": "attackSpeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -284,6 +288,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -297,7 +302,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "damage",
+                  "id": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -308,7 +313,7 @@
                   }
                 },
                 {
-                  "name": "attackSpeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -347,6 +352,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -360,7 +366,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "damage",
+                  "id": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -371,7 +377,7 @@
                   }
                 },
                 {
-                  "name": "attackSpeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "mainhand",
@@ -420,6 +426,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -433,7 +440,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "offhand",
@@ -444,7 +451,7 @@
                   }
                 },
                 {
-                  "name": "knockbackResistance",
+                  "id": "generic.knockback_resistance",
                   "attribute": "generic.knockback_resistance",
                   "operation": "add_value",
                   "slot": "offhand",
@@ -475,6 +482,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -488,7 +496,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "head",
@@ -499,7 +507,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "head",
@@ -538,6 +546,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -551,7 +560,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "chest",
@@ -562,7 +571,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "chest",
@@ -601,6 +610,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -614,7 +624,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "legs",
@@ -625,7 +635,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "legs",
@@ -664,6 +674,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -677,7 +688,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "feet",
@@ -688,7 +699,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "feet",
@@ -727,6 +738,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -740,7 +752,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "head",
@@ -751,7 +763,7 @@
                   }
                 },
                 {
-                  "name": "toughness",
+                  "id": "generic.armor_toughness",
                   "attribute": "generic.armor_toughness",
                   "operation": "add_value",
                   "slot": "head",
@@ -762,7 +774,7 @@
                   }
                 },
                 {
-                  "name": "maxhealth",
+                  "id": "generic.max_health",
                   "attribute": "generic.max_health",
                   "operation": "add_value",
                   "slot": "head",
@@ -801,6 +813,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -814,7 +827,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "chest",
@@ -825,7 +838,7 @@
                   }
                 },
                 {
-                  "name": "toughness",
+                  "id": "generic.armor_toughness",
                   "attribute": "generic.armor_toughness",
                   "operation": "add_value",
                   "slot": "chest",
@@ -836,7 +849,7 @@
                   }
                 },
                 {
-                  "name": "maxhealth",
+                  "id": "generic.max_health",
                   "attribute": "generic.max_health",
                   "operation": "add_value",
                   "slot": "chest",
@@ -875,6 +888,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -888,7 +902,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "legs",
@@ -899,7 +913,7 @@
                   }
                 },
                 {
-                  "name": "toughness",
+                  "id": "generic.armor_toughness",
                   "attribute": "generic.armor_toughness",
                   "operation": "add_value",
                   "slot": "legs",
@@ -910,7 +924,7 @@
                   }
                 },
                 {
-                  "name": "maxhealth",
+                  "id": "generic.max_health",
                   "attribute": "generic.max_health",
                   "operation": "add_value",
                   "slot": "legs",
@@ -949,6 +963,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -962,7 +977,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "feet",
@@ -973,7 +988,7 @@
                   }
                 },
                 {
-                  "name": "toughness",
+                  "id": "generic.armor_toughness",
                   "attribute": "generic.armor_toughness",
                   "operation": "add_value",
                   "slot": "feet",
@@ -984,7 +999,7 @@
                   }
                 },
                 {
-                  "name": "maxhealth",
+                  "id": "generic.max_health",
                   "attribute": "generic.max_health",
                   "operation": "add_value",
                   "slot": "feet",
@@ -1023,6 +1038,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -1036,7 +1052,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "head",
@@ -1047,7 +1063,7 @@
                   }
                 },
                 {
-                  "name": "attackspeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "head",
@@ -1097,6 +1113,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -1110,7 +1127,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "chest",
@@ -1121,7 +1138,7 @@
                   }
                 },
                 {
-                  "name": "attackspeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "chest",
@@ -1171,6 +1188,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -1184,7 +1202,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "legs",
@@ -1195,7 +1213,7 @@
                   }
                 },
                 {
-                  "name": "attackspeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "legs",
@@ -1245,6 +1263,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -1258,7 +1277,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "feet",
@@ -1269,7 +1288,7 @@
                   }
                 },
                 {
-                  "name": "attackspeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "feet",
@@ -1319,6 +1338,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -1332,7 +1352,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "luck",
+                  "id": "generic.luck",
                   "attribute": "generic.luck",
                   "operation": "add_value",
                   "slot": "offhand",
@@ -1343,7 +1363,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "offhand",
@@ -1374,6 +1394,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.uncommon.lore",
@@ -1387,7 +1408,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "offhand",
@@ -1398,7 +1419,7 @@
                   }
                 },
                 {
-                  "name": "attackspeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "offhand",

@@ -54,6 +54,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.rare.lore",
@@ -67,7 +68,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "chest",
@@ -78,7 +79,7 @@
                   }
                 },
                 {
-                  "name": "maxhealth",
+                  "id": "generic.max_health",
                   "attribute": "generic.max_health",
                   "operation": "add_value",
                   "slot": "chest",
@@ -89,7 +90,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "chest",
@@ -128,6 +129,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.epic.lore",
@@ -141,7 +143,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "chest",
@@ -152,7 +154,7 @@
                   }
                 },
                 {
-                  "name": "maxhealth",
+                  "id": "generic.max_health",
                   "attribute": "generic.max_health",
                   "operation": "add_value",
                   "slot": "chest",
@@ -163,7 +165,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "chest",
@@ -201,6 +203,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -214,7 +217,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "name": "armor",
+                  "id": "generic.armor",
                   "attribute": "generic.armor",
                   "operation": "add_value",
                   "slot": "chest",
@@ -225,7 +228,7 @@
                   }
                 },
                 {
-                  "name": "maxhealth",
+                  "id": "generic.max_health",
                   "attribute": "generic.max_health",
                   "operation": "add_value",
                   "slot": "chest",
@@ -236,7 +239,7 @@
                   }
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "slot": "chest",
@@ -247,7 +250,7 @@
                   }
                 },
                 {
-                  "name": "attackdamage",
+                  "id": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "add_value",
                   "slot": "chest",
@@ -258,7 +261,7 @@
                   }
                 },
                 {
-                  "name": "attackspeed",
+                  "id": "generic.attack_speed",
                   "attribute": "generic.attack_speed",
                   "operation": "add_value",
                   "slot": "chest",
@@ -269,7 +272,7 @@
                   }
                 },
                 {
-                  "name": "luck",
+                  "id": "generic.luck",
                   "attribute": "generic.luck",
                   "operation": "add_value",
                   "slot": "chest",

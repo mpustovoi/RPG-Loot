@@ -66,6 +66,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -157,11 +158,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:projectile_protection"]
+              "options": ["minecraft:projectile_protection"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:thorns"]
+              "options": ["minecraft:thorns"]
             }
           ]
         },
@@ -182,6 +183,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -229,7 +231,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:punch"]
+              "options": ["minecraft:punch"]
             }
           ]
         },
@@ -250,6 +252,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -308,11 +311,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:sharpness"]
+              "options": ["minecraft:sharpness"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:knockback"]
+              "options": ["minecraft:knockback"]
             }
           ]
         }

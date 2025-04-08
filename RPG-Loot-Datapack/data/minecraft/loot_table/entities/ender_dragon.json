@@ -71,6 +71,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -158,11 +159,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:projectile_protection"]
+              "options": ["minecraft:projectile_protection"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:binding_curse"]
+              "options": ["minecraft:binding_curse"]
             }
           ]
         },
@@ -183,6 +184,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -277,11 +279,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:projectile_protection"]
+              "options": ["minecraft:projectile_protection"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:binding_curse"]
+              "options": ["minecraft:binding_curse"]
             }
           ]
         },
@@ -302,6 +304,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -350,7 +353,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:smite"]
+              "options": ["minecraft:smite"]
             }
           ]
         }

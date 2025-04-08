@@ -71,6 +71,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -118,15 +119,15 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:looting"]
+              "options": ["minecraft:looting"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:sharpness"]
+              "options": ["minecraft:sharpness"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:silk_touch"]
+              "options": ["minecraft:silk_touch"]
             }
           ]
         },
@@ -147,6 +148,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -208,11 +210,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:fire_protection"]
+              "options": ["minecraft:fire_protection"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:binding_curse"]
+              "options": ["minecraft:binding_curse"]
             }
           ]
         },
@@ -233,6 +235,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -304,11 +307,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:fire_protection"]
+              "options": ["minecraft:fire_protection"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:binding_curse"]
+              "options": ["minecraft:binding_curse"]
             }
           ]
         }
@@ -494,6 +497,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "color": "dark_gray",

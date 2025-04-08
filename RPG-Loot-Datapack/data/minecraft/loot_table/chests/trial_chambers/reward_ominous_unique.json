@@ -31,6 +31,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.epic.lore",
@@ -64,7 +65,7 @@
                   "slot": "mainhand"
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "amount": {
@@ -102,6 +103,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -135,7 +137,7 @@
                   "slot": "mainhand"
                 },
                 {
-                  "name": "movementspeed",
+                  "id": "generic.movement_speed",
                   "attribute": "generic.movement_speed",
                   "operation": "add_multiplied_base",
                   "amount": {
@@ -160,11 +162,11 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:fire_aspect"]
+              "options": ["minecraft:fire_aspect"]
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:smite"]
+              "options": ["minecraft:smite"]
             }
           ]
         }

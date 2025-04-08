@@ -64,6 +64,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "text": "item.rpgloot.legendary.lore",
@@ -116,6 +117,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -227,7 +229,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:projectile_protection"]
+              "options": ["minecraft:projectile_protection"]
             }
           ]
         },
@@ -248,6 +250,7 @@
             },
             {
               "function": "set_lore",
+              "mode": "append",
               "lore": [
                 {
                   "translate": "item.rpgloot.legendary.lore",
@@ -310,7 +313,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": ["minecraft:sweeping"]
+              "options": ["minecraft:sweeping"]
             }
           ]
         }
