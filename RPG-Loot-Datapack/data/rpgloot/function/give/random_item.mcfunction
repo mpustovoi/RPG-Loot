@@ -1,2 +1,2 @@
 loot give @s loot rpgloot:random_rpgloot_item
-tellraw @s {"translate":"message.rpgloot.random_item","fallback":"[RPG Loot] Given 1 random item","color":"dark_aqua","italic":false}
+tellraw @s [{"translate":"message.rpgloot.prefix","fallback":"[RPG Loot]","color":"dark_aqua","italic":false},{"text":" ","italic":false},{"translate":"message.rpgloot.random_item","fallback":"Given 1 random item","color":"dark_aqua","italic":false}]

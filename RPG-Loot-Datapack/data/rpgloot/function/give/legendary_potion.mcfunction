@@ -1,2 +1,2 @@
 loot give @s loot rpgloot:legendary_potions
-tellraw @s {"translate":"message.rpgloot.legendary_potion","fallback":"[RPG Loot] Given 1 Legendary potion","color":"gold","italic":false}
+tellraw @s [{"translate":"message.rpgloot.prefix","fallback":"[RPG Loot]","color":"dark_aqua","italic":false},{"text":" ","italic":false},{"translate":"message.rpgloot.legendary_potion","fallback":"Given 1 Legendary potion","color":"gold","italic":false}]

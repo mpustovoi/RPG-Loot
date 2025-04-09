@@ -1,2 +1,2 @@
 loot give @s loot rpgloot:epic_items
-tellraw @s {"translate":"message.rpgloot.epic_item","fallback":"[RPG Loot] Given 1 Epic item","color":"dark_purple","italic":false}
+tellraw @s [{"translate":"message.rpgloot.prefix","fallback":"[RPG Loot]","color":"dark_aqua","italic":false},{"text":" ","italic":false},{"translate":"message.rpgloot.epic_item","fallback":"Given 1 Epic item","color":"dark_purple","italic":false}]
