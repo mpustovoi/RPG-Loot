@@ -1,7 +1,7 @@
 <details>
 <summary>RU</summary>
 
-# RPG-добыча
+# RPG-Добыча
 
 Набор с RPG-добычей для ванильной игры.
 

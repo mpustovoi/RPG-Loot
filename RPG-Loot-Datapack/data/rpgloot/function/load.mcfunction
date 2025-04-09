@@ -1,0 +1,1 @@
+tellraw @a[gamemode=creative] {"translate":"message.rpgloot.load","fallback":"[RPG Loot] Loaded","color":"dark_aqua","italic":false}
