@@ -35,6 +35,8 @@
 | Эпический   | ~9.5%  |
 | Легендарный | ~1.9%  |
 
+Легендарные предметы являются неразрушаемыми.
+
 Количество и редкость RPG-предметов, которые можно найти в ванильных структурах, в общем зависит от редкости ванильной добычи, которую в них можно найти.
 Структуры из модов, использующие (а не переопределяющие) эти таблицы добычи, также будут иметь RPG-предметы в своих сундуках.
 
@@ -99,6 +101,8 @@ General approximate RPG item drops probability distribution:
 | Rare      | ~25.3% |
 | Epic      | ~9.5%  |
 | Legendary | ~1.9%  |
+
+Legendary items are unbreakable.
 
 The number and rarity of RPG items that can be found in vanilla structures generally depends on the rarity of the vanilla loot that can be found in them.
 Modded structures that use (not override) these loot tables will also receive RPG items in their chests.
