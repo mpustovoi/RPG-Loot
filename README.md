@@ -40,6 +40,8 @@
 Количество и редкость RPG-предметов, которые можно найти в ванильных структурах, в общем зависит от редкости ванильной добычи, которую в них можно найти.
 Структуры из модов, использующие (а не переопределяющие) эти таблицы добычи, также будут иметь RPG-предметы в своих сундуках.
 
+Могут происходить корректировки характеристик предметов и их веса выпадения. (Это, разумеется, не затронет уже полученные предметы.)
+
 Возможно, в отдалённом будущем для некоторых предметов будут добавлены пользовательские текстуры.
 
 <details>
@@ -106,6 +108,8 @@ Legendary items are unbreakable.
 
 The number and rarity of RPG items that can be found in vanilla structures generally depends on the rarity of the vanilla loot that can be found in them.
 Modded structures that use (not override) these loot tables will also receive RPG items in their chests.
+
+Adjustments to the item stats and their drop weight may occur. (This, of course, won't affect the already obtained items.)
 
 Maybe in the distant future, custom textures will be added for some items.
 
