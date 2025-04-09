@@ -1,2 +1,2 @@
 loot give @s loot rpgloot:rare_items
-tellraw @s {"translate":"message.rpgloot.rare_item","fallback":"Given 1 Rare item","color":"dark_blue","italic":false}
+tellraw @s [{"translate":"message.rpgloot.prefix","fallback":"[RPG Loot]","color":"dark_aqua","italic":false},{"text":" ","italic":false},{"translate":"message.rpgloot.rare_item","fallback":"Given 1 Rare item","color":"dark_blue","italic":false}]
