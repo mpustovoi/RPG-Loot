@@ -7,19 +7,19 @@
         {
           "type": "minecraft:loot_table",
           "name": "rpgloot:uncommon_items",
-          "weight": 1000,
+          "weight": 150,
           "quality": 0
         },
         {
           "type": "minecraft:loot_table",
           "name": "rpgloot:rare_items",
-          "weight": 350,
+          "weight": 49,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
           "name": "rpgloot:epic_items",
-          "weight": 75,
+          "weight": 14,
           "quality": 3
         },
         {
