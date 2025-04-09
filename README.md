@@ -9,6 +9,8 @@
 
 Он вдохновлён [**RPG Loot, Mobs & Dungeons Data Pack**](https://www.planetminecraft.com/data-pack/rpg-loot-data-pack/) от michael9r9r и содержит некоторые названия предметов оттуда, но не содержит пользовательских мобов и подземелья.
 
+Дополнительным файлом к набору данных является набор ресурсов, содержащий языковые файлы для **Английского (США)** и **Русского (Россия)** (в отдалённом будущем планируется добавить некоторым предметам пользовательские текстуры). Этот набор опционален, так как все названия/описания предметов отображаются на **Английском** благодаря функции `fallback`.
+
 ### Детали
 
 Вот небольшой список мобов, с которых могут выпадать RPG-предметы:
@@ -41,8 +43,6 @@
 Структуры из модов, использующие (а не переопределяющие) эти таблицы добычи, также будут иметь RPG-предметы в своих сундуках.
 
 Могут происходить корректировки характеристик предметов и их веса выпадения. (Это, разумеется, не затронет уже полученные предметы.)
-
-Возможно, в отдалённом будущем для некоторых предметов будут добавлены пользовательские текстуры.
 
 <details>
 <summary>Команды для получения RPG-предметов</summary>
@@ -79,6 +79,8 @@ This pack adds RPG loot, which can be obtained by killing some mobs and found in
 
 It's is inspired by [**RPG Loot, Mobs & Dungeons Data Pack**](https://www.planetminecraft.com/data-pack/rpg-loot-data-pack/) by michael9r9r and contains some item names from there, but doesn't contain custom mobs and dungeons.
 
+An additional file to the data pack is a resource pack containing language files for **English (USA)** and **Russian (Russia)** (it's planned to add custom textures to some items in the distant future). The pack is optional, as all item names/lores are displayed in **English** thanks to the `fallback` feature.
+
 ## Details
 
 Here is a small list of mobs that can drop RPG items:
@@ -110,8 +112,6 @@ The number and rarity of RPG items that can be found in vanilla structures gener
 Modded structures that use (not override) these loot tables will also receive RPG items in their chests.
 
 Adjustments to the item stats and their drop weight may occur. (This, of course, won't affect the already obtained items.)
-
-Maybe in the distant future, custom textures will be added for some items.
 
 <details>
 <summary>Commands for obtaining RPG items</summary>
