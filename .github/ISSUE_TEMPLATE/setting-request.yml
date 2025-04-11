@@ -1,0 +1,27 @@
+name: ⚙ Config Tweak / Предложение настройки
+description: Request a config tweak / Предложите изменить отдельные настройки
+title: "[⚙] "
+labels: [tweak]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚙ Config Tweak / Предложение настройки
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you want to change? / Что хотите изменить?
+      description: Describe the setting you'd like to change / Опишите настройку, которую предлагается изменить
+      placeholder: "Example: Reduce spawn rate of mobs from mod X / Пример: Уменьшить частоту появления мобов из мода X"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this important? / Почему это важно?
+      description: How will this impact gameplay? / Как это повлияет на игровой процесс?
+      placeholder: "Example: Too many mobs spawn at night... / Пример: В течение ночи появляется слишком много мобов..."
+    validations:
+      required: true

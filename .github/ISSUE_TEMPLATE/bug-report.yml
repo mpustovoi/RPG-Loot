@@ -1,0 +1,52 @@
+name: 🐛 Bug Report / Сообщение об ошибке
+description: Report a bug or crash / Сообщите об ошибке или сбое
+title: "[🐛] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug Report / Сообщение об ошибке
+
+        Please fill out the form below as completely as possible.  
+        Пожалуйста, заполните как можно подробнее.
+
+  - type: input
+    id: version
+    attributes:
+      label: Modpack Version / Версия модпака
+      description: Example: 1.10 / Пример: 1.10
+      placeholder: "Enter the modpack version / Укажите версию модпака"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description / Описание
+      description: What happened? / Что произошло?
+      placeholder: "Describe the issue / Опишите проблему"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / Шаги воспроизведения
+      description: Steps to reproduce the issue / Шаги, чтобы воспроизвести баг
+      placeholder: |
+        1. Launch the game / Запустить игру
+        2. Open inventory / Открыть инвентарь
+        3. Click on item / Кликнуть на предмет
+        4. Game crashes / Игра вылетает
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Логи
+      description: Paste a log link (preferably https://mclo.gs) / Вставьте ссылку на лог (предпочтительно https://mclo.gs)
+      placeholder: "https://mclo.gs/..."
+    validations:
+      required: true
