@@ -13,7 +13,7 @@ body:
     attributes:
       label: What do you want to tweak? / Что хотите изменить?
       description: Describe the loot behavior or feature you want to adjust / Опишите поведение добычи или особенность, которую хотите изменить
-      placeholder: "Example: Reduce chance for legendary diamond drops / Пример: Уменьшить шанс выпадения легендарной алмазной добычи
+      placeholder: "Example: Reduce chance for legendary diamond drops / Пример: Уменьшить шанс выпадения легендарной алмазной добычи"
     validations:
       required: true
 
