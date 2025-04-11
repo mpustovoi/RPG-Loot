@@ -1,0 +1,27 @@
+name: 💡 Content Suggestion / Предложение о контенте
+description: Suggest an feature to add / Предложите функцию для добавления
+title: "[💡] "
+labels: [suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Content Suggestion / Предложение о контенте
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea / Идея
+      description: What feature do you want to suggest? / Какую функцию вы хотите предложить?
+      placeholder: "Example: Add a legendary shield that drops from Wither / Пример: Добавить легендарный щит, который выпадает с иссушителя"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason / Причина
+      description: Why should this be added? / Почему это стоит добавить?
+      placeholder: "Example: Adds more progression and reward for difficult mobs / Пример: Добавляет прогрессию и награду за сложных мобов"
+    validations:
+      required: true
