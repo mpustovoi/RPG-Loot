@@ -1,5 +1,5 @@
 name: 🐛 Bug Report / Сообщение об ошибке
-description: Report a bug or crash / Сообщите об ошибке или сбое
+description: Report an issue with RPG Loot / Сообщите об ошибке в RPG Loot
 title: "[🐛] "
 labels: [bug]
 body:
@@ -8,15 +8,25 @@ body:
       value: |
         ## 🐛 Bug Report / Сообщение об ошибке
 
-        Please fill out the form below as completely as possible.  
-        Пожалуйста, заполните как можно подробнее.
+        Please describe the issue as clearly as possible. / Пожалуйста, опишите проблему как можно подробнее.
 
-  - type: input
+  - type: dropdown
     id: version
     attributes:
-      label: Modpack Version / Версия модпака
-      description: Example: 1.10 / Пример: 1.10
-      placeholder: "Enter the modpack version / Укажите версию модпака"
+      label: Minecraft Version / Версия Minecraft
+      options:
+        - 1.20.1
+        - 1.21.1
+      description: What version of Minecraft are you using? / Какую версию Minecraft вы используете?
+    validations:
+      required: true
+
+  - type: input
+    id: datapack_version
+    attributes:
+      label: RPG Loot Version / Версия RPG Loot
+      description: Enter the version of the RPG Loot datapack / Введите версию набора данных RPG Loot
+      placeholder: "1.2.1"
     validations:
       required: true
 
@@ -25,7 +35,7 @@ body:
     attributes:
       label: Description / Описание
       description: What happened? / Что произошло?
-      placeholder: "Describe the issue / Опишите проблему"
+      placeholder: "Describe the bug / Опишите ошибку"
     validations:
       required: true
 
@@ -33,20 +43,10 @@ body:
     id: steps
     attributes:
       label: Steps to Reproduce / Шаги воспроизведения
-      description: Steps to reproduce the issue / Шаги, чтобы воспроизвести баг
+      description: How can we reproduce the bug? / Как воспроизвести ошибку?
       placeholder: |
-        1. Launch the game / Запустить игру
-        2. Open inventory / Открыть инвентарь
-        3. Click on item / Кликнуть на предмет
-        4. Game crashes / Игра вылетает
+        1. Install the datapack / Установить набор данных
+        2. Kill a mob X / Убить моба X
+        3. Nothing drops / Ничего не выпадает
     validations:
       required: false
-
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs / Логи
-      description: Paste a log link (preferably https://mclo.gs) / Вставьте ссылку на лог (предпочтительно https://mclo.gs)
-      placeholder: "https://mclo.gs/..."
-    validations:
-      required: true

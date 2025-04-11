@@ -1,5 +1,5 @@
 name: 💡 Content Suggestion / Предложение о контенте
-description: Suggest adding or removing content / Предложите добавить или удалить контент
+description: Suggest an feature to add / Предложите функцию для добавления
 title: "[💡] "
 labels: [suggestion]
 body:
@@ -8,22 +8,12 @@ body:
       value: |
         ## 💡 Content Suggestion / Предложение о контенте
 
-  - type: input
-    id: contentname
+  - type: textarea
+    id: idea
     attributes:
-      label: Content Name / Название контента
-      placeholder: "Example: Just Enough Items / Пример: Just Enough Items"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: action
-    attributes:
-      label: Action / Действие
-      options:
-        - Add content / Добавить контент
-        - Remove content / Удалить контент
-      default: 0
+      label: Idea / Идея
+      description: What feature do you want to suggest? / Какую функцию вы хотите предложить?
+      placeholder: "Example: Add a legendary shield that drops from Wither / Пример: Добавить легендарный щит, который выпадает с иссушителя"
     validations:
       required: true
 
@@ -31,15 +21,7 @@ body:
     id: reason
     attributes:
       label: Reason / Причина
-      description: Explain why the content should be added or removed / Обоснуйте, почему контент должен быть добавлен или удалён
-      placeholder: "Example: Improves gameplay... / Пример: Улучшает игровой опыт..."
+      description: Why should this be added? / Почему это стоит добавить?
+      placeholder: "Example: Adds more progression and reward for difficult mobs / Пример: Добавляет прогрессию и награду за сложных мобов"
     validations:
       required: true
-
-  - type: input
-    id: link
-    attributes:
-      label: Content Link (if available) / Ссылка на контент (если есть)
-      placeholder: "https://modrinth.com/..."
-    validations:
-      required: false
