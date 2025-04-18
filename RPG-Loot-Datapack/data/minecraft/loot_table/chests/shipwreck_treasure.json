@@ -48,7 +48,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "rpgloot:rare_potions",
-          "weight": 100,
+          "weight": 9,
           "quality": 1
         },
         {
@@ -56,12 +56,6 @@
           "value": "rpgloot:epic_potions",
           "weight": 35,
           "quality": 3
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "rpgloot:legendary_potions",
-          "weight": 1,
-          "quality": 5
         }
       ]
     },

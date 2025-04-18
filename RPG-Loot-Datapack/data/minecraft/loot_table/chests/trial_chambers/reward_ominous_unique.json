@@ -12,13 +12,13 @@
         {
           "type": "minecraft:loot_table",
           "value": "rpgloot:legendary_items",
-          "weight": 12,
+          "weight": 21,
           "quality": 3
         },
         {
           "type": "item",
           "name": "minecraft:mace",
-          "weight": 7,
+          "weight": 8,
           "functions": [
             {
               "function": "set_name",
