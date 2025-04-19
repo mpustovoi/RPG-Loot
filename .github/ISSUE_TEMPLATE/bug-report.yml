@@ -27,7 +27,7 @@ body:
       label: Are you using the latest version? / Используете ли вы последнюю версию?
       description: Check this box if you're using the latest available version of RPG Loot / Отметьте, если вы используете последнюю доступную версию RPG Loot
       options:
-        - label: Latest version
+        - label: Latest version / Последняя версия
 
   - type: textarea
     id: description
