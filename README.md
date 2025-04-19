@@ -80,16 +80,18 @@
 
 ℹ Некоторые из них также содержат уникальную добычу.
 
-🏡 Структуры из модов, использующие (а не переопределяющие) эти таблицы добычи, также будут иметь RPG-предметы в своих сундуках.
+🏡 Структуры из модов, использующие эти таблицы добычи, также будут иметь RPG-предметы в своих сундуках.
 
 ⚠ Если у вас есть другие наборы данных либо моды, которые переопределяют таблицы добычи указанных выше мобов и/или структур, то они не будут содержать RPG-предметы. (Это не касается модов, использующих модификаторы добычи, предоставляемые загрузчиками модов.)
+
+ℹ Вы можете просматривать добычу, получаемую из указанных выше мобов, прямо в игре, используя мод [**EMI Loot**](https://modrinth.com/mod/emi-loot) (дополнение к [**EMI**](https://modrinth.com/mod/emi)). Предпросмотр добычи в сундуках может быть затруднён из-за захламлённости соответствующего интерфейса. (Просмотр может частично или полностью не работать на 1.20.1 из-за особенностей версии.)
 
 📦 В будущем этот список может быть расширен некоторыми мобами из модов путём добавления небольших наборов-аддонов.
 
 ⚖ Могут происходить корректировки характеристик предметов и их веса выпадения. (Это, разумеется, не затронет уже полученные предметы.)
 
 <details>
-<summary>⌨ Команды для получения RPG-предметов</summary>
+<summary>⌨ Команды для получения стандартных RPG-предметов</summary>
 
 | ⌨ Команда                                 | 🎁 Результат          |
 | ----------------------------------------- | --------------------- |
@@ -104,7 +106,7 @@
 | `/function rpgloot:give/legendary_item`   | 1 легендарный предмет |
 | `/function rpgloot:give/legendary_potion` | 1 легендарное зелье   |
 
-⚠ С помощью этих команд нельзя получить уникальные для мобов из первой таблицы предметы добычи.
+⚠ С помощью этих команд нельзя получить уникальные для некоторых мобов/структур предметы добычи.
 
 </details>
 
@@ -195,16 +197,18 @@
 
 ℹ Some of them also contain unique loot.
 
-🏡 Modded structures that use (not override) these loot tables will also receive RPG items in their chests.
+🏡 Modded structures that use these loot tables will also receive RPG items in their chests.
 
 ⚠ If you have other data packs or mods that override the loot tables of the above mobs and/or structures, they won't have RPG items. (This doesn't apply to mods that use loot modifiers provided by modloaders.)
+
+ℹ You can preview the loot obtainable from the above mobs directly in the game using the [**EMI Loot**](https://modrinth.com/mod/emi-loot) mod (add-on to [**EMI**](https://modrinth.com/mod/emi)). Viewing chest loot can be difficult due to the clutteriness of the corresponding GUI. (The preview may partially or completely not work on 1.20.1 due to the specifics of the version.)
 
 📦 In the future, this list may be expanded with some modded mobs with by adding small add-ons.
 
 ⚖ Adjustments to the item stats and their drop weight may occur. (This, of course, won't affect the already obtained items.)
 
 <details>
-<summary>⌨ Commands for obtaining RPG items</summary>
+<summary>⌨ Commands for obtaining default RPG items</summary>
 
 | ⌨ Command                                 | 🎁 Output          |
 | ----------------------------------------- | ------------------ |
@@ -219,7 +223,7 @@
 | `/function rpgloot:give/legendary_item`   | 1 legendary item   |
 | `/function rpgloot:give/legendary_potion` | 1 legendary potion |
 
-⚠ Using these commands, you can't get loot items unique to mobs from the first table.
+⚠ Using these commands, you can't get loot items unique to some mobs/structures.
 
 </details>
 
