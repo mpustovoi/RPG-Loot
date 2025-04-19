@@ -17,18 +17,17 @@ body:
       options:
         - 1.20.1
         - 1.21.1
-      description: What version of Minecraft are you using? / Какую версию Minecraft вы используете?
+      description: Which Minecraft version are you using the datapack with? / Для какой версии Minecraft используется набор данных?
     validations:
       required: true
 
-  - type: input
-    id: datapack_version
+  - type: checkbox
+    id: latest_version
     attributes:
-      label: RPG Loot Version / Версия RPG Loot
-      description: Enter the version of the RPG Loot datapack / Введите версию набора данных RPG Loot
-      placeholder: "1.2.1"
-    validations:
-      required: true
+      label: Are you using the latest version? / Используете ли вы последнюю версию?
+      description: Check this box if you're using the latest available version of RPG Loot / Отметьте, если вы используете последнюю доступную версию RPG Loot
+      options:
+        - label: I'm using the latest version / Я использую последнюю версию
 
   - type: textarea
     id: description
