@@ -115,6 +115,7 @@
 - Чтобы получать предметы из гиганта, необходимо установить мод, позволяющий ему появляться в мире, например, [**Giant Spawn**](https://modrinth.com/mod/giant-spawn).
 - Чтобы получать предметы из кролика-убийцы, необходимо установить мод, позволяющий ему появляться в мире, например, [**Breedable Killer Rabbit**](https://modrinth.com/mod/breedable-killer-rabbit). (В некоторых сценариях с модами таблица добычи может не работать.)
 - Также рекомендуется установить датапак [**True Ending: Ender Dragon Overhaul**](https://modrinth.com/datapack/true-ending) и мод [**Bedrock Edition Style Wither**](https://modrinth.com/mod/be-style-wither) для большей сложности.
+- Некоторые чары на предметах не работают в ванильной игре. Например, «Сила» на арбалете, «Отдача» или «Шипы» на щите. Для их функционирования рекомендую установить мод [**Universal Enchants**](https://modrinth.com/mod/universal-enchants).
 
 </details>
 
@@ -232,3 +233,4 @@
 - To receive the drops of the Giant, you need to install a mod that allows him to spawn in the world, such as the [**Giant Spawn**](https://modrinth.com/mod/giant-spawn) mod.
 - To receive the drops of the Killer Rabbit, you need to install a mod that allows him to spawn in the world, such as the [**Breedable Killer Rabbit**](https://modrinth.com/mod/breedable-killer-rabbit) mod. (The loot table may not work in some modded scenarios.)
 - It's also recommended to install the [**True Ending: Ender Dragon Overhaul**](https://modrinth.com/datapack/true-ending) data pack, as well as [**Bedrock Edition Style Wither**](https://modrinth.com/mod/be-style-wither) mod for better challenge.
+- Some item enchantments won't work in the vanilla game. For example, Crossbow with Power, Shield with Knockback or Thorns. To fix this, I recommend installing the [**Universal Enchants**](https://modrinth.com/mod/universal-enchants) mod.
