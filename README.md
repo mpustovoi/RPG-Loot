@@ -7,7 +7,7 @@
 
 ⚠ Это одноразовый порт для 1.19.2, который не будет поддерживаться в будущем.
 
-ℹ Для этой версии не требуется наличие набора ресурсов. В связи с этим названия предметов/текста не будут отображаться на русском языке.
+ℹ Для этой версии не нужен опциональный набор ресурсов. На этой версии названия предметов/сообщения не будут отображаться на русском языке.
 
 </details>
 
@@ -17,4 +17,4 @@ For documentation, see the README in the [main branch](https://github.com/mpusto
 
 ⚠ This is a one-time port for 1.19.2 that won't be supported in the future.
 
-ℹ This version doesn't require a resource pack.
+ℹ This version doesn't have an optional resource pack.
