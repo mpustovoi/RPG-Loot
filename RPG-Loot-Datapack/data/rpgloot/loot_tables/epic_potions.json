@@ -13,8 +13,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.epic.greater_potion_of_vitality",
-                "fallback": "Greater Potion of Vitality",
+                "text": "Greater Potion of Vitality",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -23,8 +22,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
+                  "text": "Epic",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -53,8 +51,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.epic.potion_of_the_night_stalker",
-                "fallback": "Potion of the Night Stalker",
+                "text": "Potion of the Night Stalker",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -63,8 +60,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
+                  "text": "Epic",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -93,8 +89,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.epic.atlantean_potion",
-                "fallback": "Atlantean Potion",
+                "text": "Atlantean Potion",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -103,8 +98,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
+                  "text": "Epic",
                   "color": "dark_purple",
                   "italic": false
                 }

@@ -63,8 +63,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.final_flight",
-                "fallback": "Final Flight",
+                "text": "Final Flight",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -73,8 +72,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -164,8 +162,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ender_trophy",
-                "fallback": "Ender Trophy",
+                "text": "Ender Trophy",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -174,8 +171,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -272,8 +268,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.dragons_talon",
-                "fallback": "Dragon's Talon",
+                "text": "Dragon's Talon",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -282,8 +277,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -335,41 +329,19 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 19
-        },
-        {
           "type": "item",
-          "weight": 25,
-          "name": "minecraft:eye_armor_trim_smithing_template",
-          "functions": [
+          "name": "minecraft:dragon_head",
+          "conditions": [
             {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 6,
-          "name": "minecraft:spire_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
+              "condition": "minecraft:entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "nbt": "{powered:1b}"
               }
             }
           ]
         }
       ]
     }
-  ],
-  "random_sequence": "minecraft:entities/ender_dragon"
+  ]
 }

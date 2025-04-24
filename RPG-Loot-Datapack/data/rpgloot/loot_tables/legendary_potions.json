@@ -13,8 +13,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.potion_of_vitality",
-                "fallback": "Legendary Potion of Vitality",
+                "text": "Legendary Potion of Vitality",
                 "color": "gold",
                 "italic": false
               }
@@ -23,8 +22,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -53,8 +51,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.potion_of_the_stone_sentinel",
-                "fallback": "Potion of the Stone Sentinel",
+                "text": "Potion of the Stone Sentinel",
                 "color": "gold",
                 "italic": false
               }
@@ -63,8 +60,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -93,8 +89,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.invulnerability_potion",
-                "fallback": "Invulnerability Potion",
+                "text": "Invulnerability Potion",
                 "color": "gold",
                 "italic": false
               }
@@ -103,8 +98,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }

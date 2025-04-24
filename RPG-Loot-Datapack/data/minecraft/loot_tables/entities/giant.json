@@ -62,8 +62,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.epic.giant_iron_sword",
-                "fallback": "Giant Iron Sword",
+                "text": "Giant Iron Sword",
                 "color": "gray",
                 "italic": false
               }
@@ -72,8 +71,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
+                  "text": "Epic",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -122,8 +120,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.epic.giant_zombie_head",
-                "fallback": "Giant Zombie Head",
+                "text": "Giant Zombie Head",
                 "color": "dark_green",
                 "italic": false
               }
@@ -132,8 +129,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
+                  "text": "Epic",
                   "color": "dark_purple",
                   "italic": false
                 }

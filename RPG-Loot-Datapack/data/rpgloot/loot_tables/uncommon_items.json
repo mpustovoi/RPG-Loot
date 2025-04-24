@@ -13,8 +13,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.wooden_sword",
-                "fallback": "Uncommon Wooden Sword",
+                "text": "Uncommon Wooden Sword",
                 "color": "dark_green",
                 "italic": false
               }
@@ -23,8 +22,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -76,8 +74,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.stone_sword",
-                "fallback": "Uncommon Stone Sword",
+                "text": "Uncommon Stone Sword",
                 "color": "dark_green",
                 "italic": false
               }
@@ -86,8 +83,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -139,8 +135,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.golden_sword",
-                "fallback": "Uncommon Golden Sword",
+                "text": "Uncommon Golden Sword",
                 "color": "dark_green",
                 "italic": false
               }
@@ -149,8 +144,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -206,8 +200,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.wooden_axe",
-                "fallback": "Uncommon Wooden Axe",
+                "text": "Uncommon Wooden Axe",
                 "color": "dark_green",
                 "italic": false
               }
@@ -216,8 +209,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -269,8 +261,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.stone_axe",
-                "fallback": "Uncommon Stone Axe",
+                "text": "Uncommon Stone Axe",
                 "color": "dark_green",
                 "italic": false
               }
@@ -279,8 +270,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -332,8 +322,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.golden_axe",
-                "fallback": "Uncommon Golden Axe",
+                "text": "Uncommon Golden Axe",
                 "color": "dark_green",
                 "italic": false
               }
@@ -342,8 +331,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -398,8 +386,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.shield",
-                "fallback": "Uncommon Shield",
+                "text": "Uncommon Shield",
                 "color": "dark_green",
                 "italic": false
               }
@@ -408,8 +395,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -453,8 +439,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.leather_cap",
-                "fallback": "Uncommon Leather Cap",
+                "text": "Uncommon Leather Cap",
                 "color": "dark_green",
                 "italic": false
               }
@@ -463,8 +448,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -516,8 +500,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.leather_tunic",
-                "fallback": "Uncommon Leather Tunic",
+                "text": "Uncommon Leather Tunic",
                 "color": "dark_green",
                 "italic": false
               }
@@ -526,8 +509,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -579,8 +561,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.leather_pants",
-                "fallback": "Uncommon Leather Pants",
+                "text": "Uncommon Leather Pants",
                 "color": "dark_green",
                 "italic": false
               }
@@ -589,8 +570,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -642,8 +622,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.leather_boots",
-                "fallback": "Uncommon Leather Boots",
+                "text": "Uncommon Leather Boots",
                 "color": "dark_green",
                 "italic": false
               }
@@ -652,8 +631,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -705,8 +683,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.chainmail_helmet",
-                "fallback": "Uncommon Chainmail Helmet",
+                "text": "Uncommon Chainmail Helmet",
                 "color": "dark_green",
                 "italic": false
               }
@@ -715,8 +692,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -779,8 +755,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.chainmail_chestplate",
-                "fallback": "Uncommon Chainmail Chestplate",
+                "text": "Uncommon Chainmail Chestplate",
                 "color": "dark_green",
                 "italic": false
               }
@@ -789,8 +764,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -853,8 +827,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.chainmail_leggings",
-                "fallback": "Uncommon Chainmail Leggings",
+                "text": "Uncommon Chainmail Leggings",
                 "color": "dark_green",
                 "italic": false
               }
@@ -863,8 +836,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -927,8 +899,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.chainmail_boots",
-                "fallback": "Uncommon Chainmail Boots",
+                "text": "Uncommon Chainmail Boots",
                 "color": "dark_green",
                 "italic": false
               }
@@ -937,8 +908,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -1001,8 +971,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.golden_helmet",
-                "fallback": "Uncommon Golden Helmet",
+                "text": "Uncommon Golden Helmet",
                 "color": "dark_green",
                 "italic": false
               }
@@ -1011,8 +980,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -1068,8 +1036,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.golden_chestplate",
-                "fallback": "Uncommon Golden Chestplate",
+                "text": "Uncommon Golden Chestplate",
                 "color": "dark_green",
                 "italic": false
               }
@@ -1078,8 +1045,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -1135,8 +1101,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.golden_leggings",
-                "fallback": "Uncommon Golden Leggings",
+                "text": "Uncommon Golden Leggings",
                 "color": "dark_green",
                 "italic": false
               }
@@ -1145,8 +1110,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -1202,8 +1166,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.golden_boots",
-                "fallback": "Uncommon Golden Boots",
+                "text": "Uncommon Golden Boots",
                 "color": "dark_green",
                 "italic": false
               }
@@ -1212,8 +1175,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -1269,8 +1231,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.rabbits_foot",
-                "fallback": "Uncommon Rabbit's Foot",
+                "text": "Uncommon Rabbit's Foot",
                 "color": "dark_green",
                 "italic": false
               }
@@ -1279,8 +1240,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -1324,8 +1284,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.quartz",
-                "fallback": "Uncommon Quartz",
+                "text": "Uncommon Quartz",
                 "color": "dark_green",
                 "italic": false
               }
@@ -1334,8 +1293,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }

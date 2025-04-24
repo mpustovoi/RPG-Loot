@@ -58,8 +58,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ribcage_of_hades",
-                "fallback": "Ribcage of Hades",
+                "text": "Ribcage of Hades",
                 "color": "gray",
                 "italic": false
               }
@@ -68,8 +67,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -159,8 +157,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.bone_blast",
-                "fallback": "Bone Blast",
+                "text": "Bone Blast",
                 "color": "dark_gray",
                 "italic": false
               }
@@ -169,8 +166,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -224,8 +220,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.wither_bone",
-                "fallback": "Wither Bone",
+                "text": "Wither Bone",
                 "color": "gray",
                 "italic": false
               }
@@ -234,8 +229,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -291,46 +285,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 19
-        },
-        {
-          "type": "item",
-          "weight": 6,
-          "name": "minecraft:netherite_upgrade_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 25,
-          "name": "minecraft:rib_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        }
-      ]
     }
-  ],
-  "random_sequence": "minecraft:entities/wither"
+  ]
 }

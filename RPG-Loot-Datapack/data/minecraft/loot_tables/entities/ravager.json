@@ -70,8 +70,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.epic.raid_horn",
-                "fallback": "Raid Horn",
+                "text": "Raid Horn",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -80,8 +79,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
+                  "text": "Epic",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -122,45 +120,6 @@
       "conditions": [
         {
           "condition": "minecraft:killed_by_player"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 24
-        },
-        {
-          "type": "item",
-          "weight": 25,
-          "name": "minecraft:sentry_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:vex_armor_trim_smithing_template",
-          "functions": [
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
         }
       ]
     },
@@ -233,6 +192,5 @@
         }
       ]
     }
-  ],
-  "random_sequence": "minecraft:entities/ravager"
+  ]
 }

@@ -14,13 +14,12 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:item\",PickupDelay:100,Item:{id:\"minecraft:spawner\",Count:1b,tag:{display:{Name:'{\"translate\":\"block.rpgloot.legendary.golden_spawner\",\"fallback\":\"Golden Spawner\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"translate\":\"item.rpgloot.legendary.lore\",\"fallback\":\"Legendary\",\"color\":\"gold\",\"italic\":false}']},Enchantments:[{}],BlockEntityTag:{SpawnCount:1,SpawnRange:6,Delay:200,MinSpawnDelay:200,MaxSpawnDelay:600,MaxNearbyEntities:16,RequiredPlayerRange:64,SpawnPotentials:[{weight:1,data:{entity:{id:\"minecraft:item\",Item:{id:\"minecraft:raw_gold\",Count:1b}}}}]}}}}}"
+              "tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:item\",PickupDelay:100,Item:{id:\"minecraft:spawner\",Count:1b,tag:{display:{Name:'{\"text\":\"Golden Spawner\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Legendary\",\"color\":\"gold\",\"italic\":false}']},Enchantments:[{}],BlockEntityTag:{SpawnCount:1,SpawnRange:6,Delay:200,MinSpawnDelay:200,MaxSpawnDelay:600,MaxNearbyEntities:16,RequiredPlayerRange:64,SpawnPotentials:[{weight:1,data:{entity:{id:\"minecraft:item\",Item:{id:\"minecraft:raw_gold\",Count:1b}}}}]}}}}}"
             },
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.golden_egg",
-                "fallback": "Golden Egg",
+                "text": "Golden Egg",
                 "color": "gold",
                 "italic": false
               }
@@ -29,8 +28,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }

@@ -1,1 +1,1 @@
-tellraw @a[gamemode=creative] [{"translate":"message.rpgloot.prefix","fallback":"[RPG Loot]","color":"dark_aqua","italic":false},{"text":" ","italic":false},{"translate":"message.rpgloot.load","fallback":"Loaded","color":"dark_green","italic":false}]
+tellraw @a[gamemode=creative] [{"text":"[RPG Loot]","color":"dark_aqua","italic":false},{"text":" ","italic":false},{"text":"Loaded","color":"dark_green","italic":false}]

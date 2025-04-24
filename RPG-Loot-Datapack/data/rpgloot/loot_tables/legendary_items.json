@@ -13,8 +13,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.iron_sword",
-                "fallback": "Legendary Iron Sword",
+                "text": "Legendary Iron Sword",
                 "color": "gold",
                 "italic": false
               }
@@ -23,8 +22,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -80,8 +78,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.diamond_sword",
-                "fallback": "Legendary Diamond Sword",
+                "text": "Legendary Diamond Sword",
                 "color": "gold",
                 "italic": false
               }
@@ -90,8 +87,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -147,8 +143,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.netherite_sword",
-                "fallback": "Legendary Netherite Sword",
+                "text": "Legendary Netherite Sword",
                 "color": "gold",
                 "italic": false
               }
@@ -157,8 +152,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -214,8 +208,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.iron_axe",
-                "fallback": "Legendary Iron Axe",
+                "text": "Legendary Iron Axe",
                 "color": "gold",
                 "italic": false
               }
@@ -224,8 +217,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -281,8 +273,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.diamond_axe",
-                "fallback": "Legendary Diamond Axe",
+                "text": "Legendary Diamond Axe",
                 "color": "gold",
                 "italic": false
               }
@@ -291,8 +282,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -348,8 +338,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.netherite_axe",
-                "fallback": "Legendary Netherite Axe",
+                "text": "Legendary Netherite Axe",
                 "color": "gold",
                 "italic": false
               }
@@ -358,8 +347,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -415,8 +403,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.trident",
-                "fallback": "Legendary Trident",
+                "text": "Legendary Trident",
                 "color": "gold",
                 "italic": false
               }
@@ -425,8 +412,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -486,8 +472,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.shield",
-                "fallback": "Legendary Shield",
+                "text": "Legendary Shield",
                 "color": "gold",
                 "italic": false
               }
@@ -496,8 +481,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -604,8 +588,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ember",
-                "fallback": "Ember",
+                "text": "Ember",
                 "color": "gold",
                 "italic": false
               }
@@ -614,8 +597,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -686,8 +668,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.maelstrom",
-                "fallback": "Maelstrom",
+                "text": "Maelstrom",
                 "color": "gold",
                 "italic": false
               }
@@ -696,8 +677,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -772,8 +752,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.javelin",
-                "fallback": "Javelin",
+                "text": "Javelin",
                 "color": "gold",
                 "italic": false
               }
@@ -782,8 +761,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -854,8 +832,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.proto_bounty",
-                "fallback": "Proto-Bounty",
+                "text": "Proto-Bounty",
                 "color": "gold",
                 "italic": false
               }
@@ -864,8 +841,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -925,8 +901,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.bounty",
-                "fallback": "Bounty",
+                "text": "Bounty",
                 "color": "gold",
                 "italic": false
               }
@@ -935,8 +910,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -996,8 +970,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ancient_bounty",
-                "fallback": "Ancient Bounty",
+                "text": "Ancient Bounty",
                 "color": "gold",
                 "italic": false
               }
@@ -1006,8 +979,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1067,8 +1039,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.shell_splitter",
-                "fallback": "Shell Splitter",
+                "text": "Shell Splitter",
                 "color": "gold",
                 "italic": false
               }
@@ -1077,8 +1048,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1134,8 +1104,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.core_splitter",
-                "fallback": "Core Splitter",
+                "text": "Core Splitter",
                 "color": "gold",
                 "italic": false
               }
@@ -1144,8 +1113,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1201,8 +1169,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ancient_core_splitter",
-                "fallback": "Ancient Core Splitter",
+                "text": "Ancient Core Splitter",
                 "color": "gold",
                 "italic": false
               }
@@ -1211,8 +1178,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1268,8 +1234,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.proto_excavator",
-                "fallback": "Proto-Excavator",
+                "text": "Proto-Excavator",
                 "color": "gold",
                 "italic": false
               }
@@ -1278,8 +1243,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1335,8 +1299,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.excavator",
-                "fallback": "Excavator",
+                "text": "Excavator",
                 "color": "gold",
                 "italic": false
               }
@@ -1345,8 +1308,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1402,8 +1364,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ancient_excavator",
-                "fallback": "Ancient Excavator",
+                "text": "Ancient Excavator",
                 "color": "gold",
                 "italic": false
               }
@@ -1412,8 +1373,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1469,8 +1429,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.proto_shredder",
-                "fallback": "Proto-Shredder",
+                "text": "Proto-Shredder",
                 "color": "gold",
                 "italic": false
               }
@@ -1479,8 +1438,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1540,8 +1498,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.shredder",
-                "fallback": "Shredder",
+                "text": "Shredder",
                 "color": "gold",
                 "italic": false
               }
@@ -1550,8 +1507,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1611,8 +1567,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ancient_shredder",
-                "fallback": "Ancient Shredder",
+                "text": "Ancient Shredder",
                 "color": "gold",
                 "italic": false
               }
@@ -1621,8 +1576,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1682,8 +1636,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.proto_scythe",
-                "fallback": "Proto-Scythe",
+                "text": "Proto-Scythe",
                 "color": "gold",
                 "italic": false
               }
@@ -1692,8 +1645,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1753,8 +1705,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.scythe_of_death",
-                "fallback": "Scythe of Death",
+                "text": "Scythe of Death",
                 "color": "gold",
                 "italic": false
               }
@@ -1763,8 +1714,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1824,8 +1774,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.ancient_scythe_of_death",
-                "fallback": "Ancient Scythe of Death",
+                "text": "Ancient Scythe of Death",
                 "color": "gold",
                 "italic": false
               }
@@ -1834,8 +1783,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -1895,8 +1843,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.bulwark",
-                "fallback": "Bulwark",
+                "text": "Bulwark",
                 "color": "gold",
                 "italic": false
               }
@@ -1905,8 +1852,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2013,8 +1959,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.iron_helmet",
-                "fallback": "Legendary Iron Helmet",
+                "text": "Legendary Iron Helmet",
                 "color": "gold",
                 "italic": false
               }
@@ -2023,8 +1968,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2146,8 +2090,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.iron_chestplate",
-                "fallback": "Legendary Iron Chestplate",
+                "text": "Legendary Iron Chestplate",
                 "color": "gold",
                 "italic": false
               }
@@ -2156,8 +2099,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2279,8 +2221,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.iron_leggings",
-                "fallback": "Legendary Iron Leggings",
+                "text": "Legendary Iron Leggings",
                 "color": "gold",
                 "italic": false
               }
@@ -2289,8 +2230,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2412,8 +2352,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.iron_boots",
-                "fallback": "Legendary Iron Boots",
+                "text": "Legendary Iron Boots",
                 "color": "gold",
                 "italic": false
               }
@@ -2422,8 +2361,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2545,8 +2483,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.diamond_helmet",
-                "fallback": "Legendary Diamond Helmet",
+                "text": "Legendary Diamond Helmet",
                 "color": "gold",
                 "italic": false
               }
@@ -2555,8 +2492,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2678,8 +2614,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.diamond_chestplate",
-                "fallback": "Legendary Diamond Chestplate",
+                "text": "Legendary Diamond Chestplate",
                 "color": "gold",
                 "italic": false
               }
@@ -2688,8 +2623,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2811,8 +2745,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.diamond_leggings",
-                "fallback": "Legendary Diamond Leggings",
+                "text": "Legendary Diamond Leggings",
                 "color": "gold",
                 "italic": false
               }
@@ -2821,8 +2754,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -2944,8 +2876,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.diamond_boots",
-                "fallback": "Legendary Diamond Boots",
+                "text": "Legendary Diamond Boots",
                 "color": "gold",
                 "italic": false
               }
@@ -2954,8 +2885,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3077,8 +3007,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.netherite_helmet",
-                "fallback": "Legendary Netherite Helmet",
+                "text": "Legendary Netherite Helmet",
                 "color": "gold",
                 "italic": false
               }
@@ -3087,8 +3016,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3210,8 +3138,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.netherite_chestplate",
-                "fallback": "Legendary Netherite Chestplate",
+                "text": "Legendary Netherite Chestplate",
                 "color": "gold",
                 "italic": false
               }
@@ -3220,8 +3147,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3343,8 +3269,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.netherite_leggings",
-                "fallback": "Legendary Netherite Leggings",
+                "text": "Legendary Netherite Leggings",
                 "color": "gold",
                 "italic": false
               }
@@ -3353,8 +3278,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3476,8 +3400,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.netherite_boots",
-                "fallback": "Legendary Netherite Boots",
+                "text": "Legendary Netherite Boots",
                 "color": "gold",
                 "italic": false
               }
@@ -3486,8 +3409,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3609,8 +3531,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.turtle_shell",
-                "fallback": "Legendary Turtle Shell",
+                "text": "Legendary Turtle Shell",
                 "color": "gold",
                 "italic": false
               }
@@ -3619,8 +3540,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3731,8 +3651,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.totem_of_undying",
-                "fallback": "Legendary Totem of Undying",
+                "text": "Legendary Totem of Undying",
                 "color": "gold",
                 "italic": false
               }
@@ -3741,8 +3660,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3808,8 +3726,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.rabbit's_foot",
-                "fallback": "Legendary Rabbit's Foot",
+                "text": "Legendary Rabbit's Foot",
                 "color": "gold",
                 "italic": false
               }
@@ -3818,8 +3735,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3863,8 +3779,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.quartz",
-                "fallback": "Legendary Quartz",
+                "text": "Legendary Quartz",
                 "color": "gold",
                 "italic": false
               }
@@ -3873,8 +3788,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -3918,8 +3832,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.diamond",
-                "fallback": "Legendary Diamond",
+                "text": "Legendary Diamond",
                 "color": "gold",
                 "italic": false
               }
@@ -3928,8 +3841,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }

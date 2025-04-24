@@ -70,8 +70,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.epic.typhoon",
-                "fallback": "Typhoon",
+                "text": "Typhoon",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -80,8 +79,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.epic.lore",
-                  "fallback": "Epic",
+                  "text": "Epic",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -249,20 +247,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tide_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:entities/elder_guardian"
+  ]
 }

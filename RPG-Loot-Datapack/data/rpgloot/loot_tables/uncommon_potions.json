@@ -13,8 +13,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.vial_of_the_crimson_rite",
-                "fallback": "Vial of the Crimson Rite",
+                "text": "Vial of the Crimson Rite",
                 "color": "dark_green",
                 "italic": false
               }
@@ -23,8 +22,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -53,8 +51,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.ironskin_potion",
-                "fallback": "Ironskin Potion",
+                "text": "Ironskin Potion",
                 "color": "dark_green",
                 "italic": false
               }
@@ -63,8 +60,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -93,8 +89,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.potion_of_shielding",
-                "fallback": "Potion of Shielding",
+                "text": "Potion of Shielding",
                 "color": "dark_green",
                 "italic": false
               }
@@ -103,8 +98,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -133,8 +127,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.potion_of_dexterity",
-                "fallback": "Potion of Dexterity",
+                "text": "Potion of Dexterity",
                 "color": "dark_green",
                 "italic": false
               }
@@ -143,8 +136,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -173,8 +165,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.charisma_elixir",
-                "fallback": "Charisma Elixir",
+                "text": "Charisma Elixir",
                 "color": "dark_green",
                 "italic": false
               }
@@ -183,8 +174,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -213,8 +203,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.uncommon.feather_fall_potion",
-                "fallback": "Feather Fall Potion",
+                "text": "Feather Fall Potion",
                 "color": "dark_green",
                 "italic": false
               }
@@ -223,8 +212,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.uncommon.lore",
-                  "fallback": "Uncommon",
+                  "text": "Uncommon",
                   "color": "dark_green",
                   "italic": false
                 }

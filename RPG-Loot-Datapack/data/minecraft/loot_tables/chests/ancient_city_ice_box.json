@@ -28,7 +28,6 @@
       ]
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -135,6 +134,5 @@
         "min": 4.0
       }
     }
-  ],
-  "random_sequence": "minecraft:chests/ancient_city_ice_box"
+  ]
 }

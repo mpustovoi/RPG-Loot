@@ -182,7 +182,7 @@
               "zoom": 1
             },
             {
-              "function": "set_name",
+              "function": "minecraft:set_name",
               "name": {
                 "translate": "filled_map.buried_treasure"
               }
@@ -194,6 +194,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:chests/underwater_ruin_big"
+  ]
 }

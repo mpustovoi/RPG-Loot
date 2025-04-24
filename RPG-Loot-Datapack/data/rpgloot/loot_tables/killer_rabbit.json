@@ -56,8 +56,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.rabbits_foot",
-                "fallback": "Legendary Rabbit's Foot",
+                "text": "Legendary Rabbit's Foot",
                 "color": "gold",
                 "italic": false
               }
@@ -108,8 +107,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.chainmail_leggings",
-                "fallback": "Legendary Chainmail Leggings",
+                "text": "Legendary Chainmail Leggings",
                 "color": "gold",
                 "italic": false
               }
@@ -118,8 +116,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }
@@ -229,8 +226,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.legendary.golden_sword",
-                "fallback": "Legendary Golden Sword",
+                "text": "Legendary Golden Sword",
                 "color": "gold",
                 "italic": false
               }
@@ -239,8 +235,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.legendary.lore",
-                  "fallback": "Legendary",
+                  "text": "Legendary",
                   "color": "gold",
                   "italic": false
                 }

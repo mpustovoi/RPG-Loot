@@ -13,8 +13,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.potion_of_greater_healing",
-                "fallback": "Potion of Greater Healing",
+                "text": "Potion of Greater Healing",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -23,8 +22,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
@@ -53,8 +51,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.potion_of_hill_giant_strength",
-                "fallback": "Potion of Hill Giant Strength",
+                "text": "Potion of Hill Giant Strength",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -63,8 +60,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
@@ -93,8 +89,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.lesser_potion_of_vitality",
-                "fallback": "Lesser Potion of Vitality",
+                "text": "Lesser Potion of Vitality",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -103,8 +98,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
@@ -133,8 +127,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.potion_of_the_night_strider",
-                "fallback": "Potion of the Night Strider",
+                "text": "Potion of the Night Strider",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -143,8 +136,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
@@ -173,8 +165,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.obsidian_skin_potion",
-                "fallback": "Obsidian Skin Potion",
+                "text": "Obsidian Skin Potion",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -183,8 +174,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
@@ -213,8 +203,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.splash_potion_of_vitality",
-                "fallback": "Splash Potion of Vitality",
+                "text": "Splash Potion of Vitality",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -223,8 +212,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
@@ -253,8 +241,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.splash_potion_of_freezing",
-                "fallback": "Splash Potion of Freezing",
+                "text": "Splash Potion of Freezing",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -263,8 +250,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
@@ -293,8 +279,7 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "item.rpgloot.rare.indefatigable_potion",
-                "fallback": "Indefatigable Potion",
+                "text": "Indefatigable Potion",
                 "color": "dark_blue",
                 "italic": false
               }
@@ -303,8 +288,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "item.rpgloot.rare.lore",
-                  "fallback": "Rare",
+                  "text": "Rare",
                   "color": "dark_blue",
                   "italic": false
                 }
