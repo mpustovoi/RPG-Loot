@@ -129,7 +129,7 @@
 
 📖 An additional file to the data pack is a resource pack containing language files for **English (USA)** and **Russian (Russia)** (it's planned to add custom textures to some items in the distant future). The pack is optional, as all item names/lores are displayed in **English** by default thanks to the `fallback` feature.
 
-## 📃 Details
+### 📃 Details
 
 📊 General approximate RPG item drops probability distribution:
 | Rarity | Chance |
