@@ -1,9 +1,11 @@
 <details>
 <summary>RU</summary>
 
-# ⚔ RPG-Добыча
-
-📦 Набор с RPG-добычей для ванильной игры.
+<p align="center">
+    <img src="RPG-Loot-Datapack/pack.png" />
+    <h1 align="center">⚔ RPG-Добыча 🛡</h1>
+    <h2 align="center">📦 Набор с RPG-добычей для ванильной игры 🏰</h2>
+</p>
 
 ℹ Этот набор добавляет RPG-добычу, которую можно получить, убивая некоторых мобов и найдя в некоторых ванильных структурах.
 
@@ -119,9 +121,11 @@
 
 </details>
 
-# ⚔ RPG-Loot
-
-📦 RPG Loot pack for vanilla game.
+<p align="center">
+    <img src="RPG-Loot-Datapack/pack.png" />
+    <h1 align="center">⚔ RPG-Loot 🛡</h1>
+    <h2 align="center">📦 RPG Loot pack for vanilla game 🏰</h2>
+</p>
 
 ℹ This pack adds RPG loot, which can be obtained by killing some mobs and found in some vanilla structures.
 
