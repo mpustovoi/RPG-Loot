@@ -106,7 +106,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:looting\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:4s}]}"
+              "tag": "{Enchantments:[{id:\"minecraft:looting\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:4s}]}"
             },
             {
               "function": "minecraft:enchant_randomly",
