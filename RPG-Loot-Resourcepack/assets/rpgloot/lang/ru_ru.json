@@ -1,6 +1,7 @@
 {
   "block.rpgloot.legendary.golden_spawner": "Золотой рассадник",
-  "datapack.uncraftable.rpgloot.name": "§fНабор с §3RPG§r§f добычей\n§7(Только ванильные предметы)",
+  "datapack.rpgloot.description": "§fНабор с §3RPG§r§f добычей\n§7(Только ванильные предметы)",
+  "datapack.rpgloot&lcc.description": "§rСовместимость §3RPG Loot§r с §bLuki's §6Crazy §3Chambers",
   "item.rpgloot.epic.atlantean_potion": "Атлантийское зелье",
   "item.rpgloot.epic.bow": "Эпический лук",
   "item.rpgloot.epic.chainmail_boots": "Эпические кольчужные ботинки",
