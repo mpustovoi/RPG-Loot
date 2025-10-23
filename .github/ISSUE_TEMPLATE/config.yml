@@ -1,6 +1,6 @@
 blank_issues_enabled: true
 issue_templates:
-  - name: 🐛 Bug Report / Сообщение об ошибке
+  - name: ⚠️ Bug Report / Сообщение об ошибке
     description: Report an issue with RPG Loot / Сообщите об ошибке в RPG Loot
     file: bug-report.yml
   - name: 💡 Content Suggestion / Предложение о контенте
